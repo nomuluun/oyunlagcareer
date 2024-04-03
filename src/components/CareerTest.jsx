@@ -57,7 +57,6 @@ export default function CareerTest(){
       
     };
     const handleB = () => {
-        const router = useRouter()
         console.log(userIndex);
         console.log("gandlA");
         if(userIndex == 19 ){
