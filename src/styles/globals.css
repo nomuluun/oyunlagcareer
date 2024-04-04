@@ -6,3 +6,13 @@ body {
     background-color: #F5F5F5;
     font-family:"Roboto", sans-serif ;
 }
+/* 
+body {
+    font-family: ;
+} */
+.text-shad {
+    text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
+}
+.box-shad {
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
+}

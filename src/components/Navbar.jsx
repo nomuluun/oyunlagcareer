@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 export default function Navbar(){
     return(
 
@@ -7,11 +6,9 @@ export default function Navbar(){
           <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               {/* <Image src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo"> */}
-              <Image
-                src="https://flowbite.com/docs/images/logo.svg"
-                width={50}
-                height={50}
-                alt="Picture of the author"
+              <img
+                src="/Logo.png"
+                width={"100px"} alt="Picture of the author"
                 />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
           </a>
@@ -31,7 +28,7 @@ export default function Navbar(){
                 <a href="#" className="block py-[20px] px-3 text-white bg-[#FFBD59] rounded md:bg-transparent md:text-[#FFBD59] md:p-0 " aria-current="page">Нүүр хуудас</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#FFBD59] md:p-0">Хичээл</a>
+                <a href="#" className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#FFBD59] md:p-0 ">Хичээл</a>
               </li>
               <li>
                 <a href="#" className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#FFBD59] md:p-0">Тэтгэлэг</a>
