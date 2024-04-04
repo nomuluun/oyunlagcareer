@@ -1,20 +1,16 @@
 import Image from 'next/image'
 export default function Navbar(){
     return(
-
-        <nav className="fixed top:0 w-full z-20 top-0 start-0 ">
+          <nav className=" fixed top-0 w-full z-20 start-0  bg-[#f5f5f5] ">
           <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-              {/* <Image src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo"> */}
               <img
                 src="/Logo.png"
-                width={"100px"} alt="Picture of the author"
+                width={"100px"} alt=""
                 />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
           </a>
-          <div className=" flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
-              <button type="button" className="text-[#ffffff] border-4 border-[#FFBD59] bg-[#FFBD59] hover:text-[#FFBD59] hover:bg-[#ffffff] focus:ring-4 focus:outline-none focus:ring-[#FFBD59] font-medium rounded-full text-sm px-4 py-2 mx-4 text-center ">Нэвтрэх</button>
-              <button type="button" className=" text-[#ffffff] border-4 border-[#FFBD59] bg-[#FFBD59] hover:text-[#FFBD59] hover:bg-[#ffffff] focus:ring-4 focus:outline-none focus:ring-[#FFBD59] font-medium rounded-full text-sm px-4 py-2 mx-4 text-center ">Бүртгүүлэх</button>
+          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse  ">
+              
               <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -40,6 +36,8 @@ export default function Navbar(){
                 <a href="#" className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#FFBD59] md:p-0">Мэргэжил</a>
               </li>
             </ul>
+              <button type="button" className=" ml-20 text-[#ffffff] border border-[#FFBD59] bg-[#FFBD59] hover:text-[#FFBD59] hover:bg-[#ffffff] focus:ring-4 focus:outline-none focus:ring-[#FFBD59] font-medium rounded-full text-sm px-4 py-2 mx-4 text-center ">Нэвтрэх</button>
+              <button type="button" className=" text-[#ffffff] border border-[#FFBD59] bg-[#FFBD59] hover:text-[#FFBD59] hover:bg-[#ffffff] focus:ring-4 focus:outline-none focus:ring-[#FFBD59] font-medium rounded-full text-sm px-4 py-2 mx-4 text-center ">Бүртгүүлэх</button>
           </div>
           </div>
         </nav>
