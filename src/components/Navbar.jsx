@@ -81,13 +81,13 @@ export default function Navbar() {
           </ul>
           <button
             type="button"
-            className=" ml-20 text-tsgn border border-shar bg-shar hover:text-shar hover:bg-tsgn focus:ring-4 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
+            className=" ml-20 text-white border border-shar bg-shar hover:text-shar hover:bg-white focus:ring-4 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
           >
             Нэвтрэх
           </button>
           <button
             type="button"
-            className=" text-tsgn border border-shar bg-shar hover:text-shar hover:bg-tsgn focus:ring-4 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
+            className=" text-white border border-shar bg-shar hover:text-shar hover:bg-white focus:ring-4 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
           >
             Бүртгүүлэх
           </button>

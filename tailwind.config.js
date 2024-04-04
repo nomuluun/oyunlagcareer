@@ -11,7 +11,7 @@ module.exports = {
     colors : {
       'shar' : '#FFBD59',
       'prp'  : '#5E17EB',
-      'tsgn'  : '#ffffff',
+      'har' : '#373737',
     },
     extend: {
       backgroundImage: {
