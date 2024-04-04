@@ -1,8 +1,7 @@
 import Image from 'next/image'
 export default function Navbar(){
     return(
-
-        <nav className=" fixed top-0 w-full z-20  start-0 bg-[#f5f5f5] ">
+          <nav className=" fixed top-0 w-full z-20 start-0  bg-[#f5f5f5] ">
           <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img

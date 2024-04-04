@@ -1,5 +1,4 @@
-
- import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 import Nuurhuudas from "@/components/Nuurhuudas";
 import Putter from "@/components/Putter";
 export default function Home1() {
@@ -10,4 +9,4 @@ export default function Home1() {
      <Putter/>
     </div>
    );
-    }
+}
