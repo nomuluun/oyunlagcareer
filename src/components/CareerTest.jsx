@@ -14,7 +14,7 @@ export default function CareerTest() {
   let activeBtn =
     "sm:text-xl lg:text-2xl p-[20px] bg-[#FFBD59] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold box-shad mb-8 lg:mb-11";
   let btnStyle =
-    "sm:text-xl lg:text-2xl p-[20px] bg-[#5E17EB] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold hover:bg-[#FFBD59] box-shad mb-8 lg:mb-11";
+    "sm:text-xl lg:text-2xl p-[20px] bg-prp w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold hover:bg-[#FFBD59] box-shad mb-8 lg:mb-11";
   let answerBtn1, answerBtn2;
   // console.log("choice", choice);
   // if (userIndex == 20) {
@@ -93,7 +93,7 @@ export default function CareerTest() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] bg-[#F5F5F5] w-[100%] border" >
+    <div className="flex flex-col justify-center items-center h-[100vh] bg-[#F5F5F5] w-[100%] border">
       <div className=" w-[100%] max-w-[1200px]  bg-[#f5f5f5]   flex flex-col  items-center px-5">
         <img
           src="/svg/Byc.png"
@@ -106,7 +106,7 @@ export default function CareerTest() {
         <div className="sm:text-md lg:text-2xl  flex flex-row justify-center font-bold text-[#373737] mb-8 lg:mb-11">
           {"Асуулт " + (userIndex + 1) + "/" + "20"}
         </div>
-        
+
         <div className="text-xl sm:text-2xl lg:text-4xl flex justify-center items-center w-full max-w-[810px] text-center font-bold mb-8 mt-8 lg:mb-11 lg:mt-11">
           <p className="text-shad">{careerTestData[userIndex].que}</p>
         </div>
@@ -118,7 +118,7 @@ export default function CareerTest() {
         </button>
         <div className="flex flex-row justify-between w-full max-w-[800px] mt-8 lg:mt-11">
           <button
-            className="text-base font-bold text-[#5E17EB] hover:text-[#FFBD59] "
+            className="text-base font-bold text-prp hover:text-[#FFBD59] "
             onClick={prev}
           >
             Өмнөх
@@ -126,7 +126,7 @@ export default function CareerTest() {
           <button
             className="
                         text-base font-bold 
-                        text-[#5E17EB] 
+                        text-prp 
                         hover:text-[#FFBD59]"
             onClick={next}
           >

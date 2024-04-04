@@ -20,3 +20,6 @@ body {
 .box-shad {
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
 }
+.index-shadow{
+    box-shadow: 5px 5px 100px rgba(94, 23, 235, 0.08);
+}
