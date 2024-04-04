@@ -32,7 +32,6 @@ export default function CareerTest() {
   //   }
   // }
   if (choice[userIndex] == 1) {
-    // console.log();
     answerBtn1 = activeBtn;
     answerBtn2 = btnStyle;
   } else if (choice[userIndex] == 2) {
@@ -47,6 +46,7 @@ export default function CareerTest() {
     console.log("gandlA");
     if (userIndex == 19) {
       router.push("/careerresult");
+      
     }
     const newChoice = choice.map((data, index) => {
       if (index == userIndex) {
@@ -62,6 +62,7 @@ export default function CareerTest() {
     console.log("gandlA");
     if (userIndex == 19) {
       router.push("/careerresult");
+      
     }
     const newChoice = choice.map((data, index) => {
       if (index == userIndex) {
