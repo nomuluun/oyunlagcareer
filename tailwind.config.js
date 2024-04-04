@@ -8,6 +8,10 @@ module.exports = {
     "./public/**/*.html",
   ],
   theme: {
+    colors : {
+      shar: '#FFBD59',
+      
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
