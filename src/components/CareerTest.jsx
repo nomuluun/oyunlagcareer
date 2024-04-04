@@ -93,7 +93,7 @@ export default function CareerTest(){
     };
     
     return(
-        <div className="flex justify-center items-center py-[48px] bg-[#F5F5F5] ">
+        <div className="flex justify-center items-center h-[100vh] bg-[#F5F5F5] ">
                 <div className=" w-[1200px] h-[746px] bg-[#f5f5f5]   flex flex-col justify-between items-center relative" >
                     <img src="/svg/Byc.png" width={"278px"} className="absolute right-[32px] bottom-[124px]"/>
                     <img src="/svg/pic2.png" className="absolute  right-[-20px] top-[60px] "  />
