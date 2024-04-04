@@ -3,12 +3,14 @@ import Navbar from "@/components/Navbar"
 import Signup from "@/components/Signup"
 import Signin from "@/components/Signin"
 import Job from "@/components/Job"
+import Putter from "@/components/Putter"
 export default function Home() {
-  return <div>
-    {/* <Navbar/> */}
+  return (<div>
+    <Navbar/>
     {/* <CareerTest/> */}
     {/* <Signin/>  */}
     <Job/>
+    <Putter/>
     </div>
-  return <div><p>{"paaa"}</p></div>
+  )
 }
