@@ -12,7 +12,7 @@ export default function Nuurhuudas(){
             </div>
             <div className="md:flex items-center justify-center px-8 py-6 hidden"><img src="/Saly-1.png" alt="" className="drop-shadow-2xl mx-auto w-full" /></div>
         </div>
-        <div className="border-4 bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between mx-auto text-[#5E17EB] font-extrabold md:px-32 md:py-10 px-10 py-8 md:text-[32px] text-[18px] mt-40" >
+        <div className="border-4 bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between mx-auto text-[#5E17EB] font-extrabold md:px-32 md:py-10 px-10 py-8 md:text-[32px] text-[18px] mt-40 " >
             <div>
                 <p className="">48+ Мэргэжил</p>
             </div>
