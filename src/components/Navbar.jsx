@@ -48,7 +48,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="hicheel"
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 "
               >
                 Хичээл
