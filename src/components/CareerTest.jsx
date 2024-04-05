@@ -14,7 +14,7 @@ export default function CareerTest() {
   let activeBtn =
     "sm:text-xl lg:text-2xl p-[20px] bg-[#FFBD59] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold box-shad mb-8 lg:mb-11";
   let btnStyle =
-    "sm:text-xl lg:text-2xl p-[20px] bg-prp w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold hover:bg-[#FFBD59] box-shad mb-8 lg:mb-11";
+    "sm:text-xl lg:text-2xl p-[20px] bg-[#5E17EB] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold hover:bg-[#FFBD59] hover:-translate-y-2 box-shad mb-8 lg:mb-11 transition-all";
   let answerBtn1, answerBtn2;
   // console.log("choice", choice);
   // if (userIndex == 20) {
@@ -28,11 +28,10 @@ export default function CareerTest() {
   //     return a.scre - b.scre;
   //   });
   //   for (let i = 0; i < 16; i++) {
-  //     // console.log(CareerType[i].nme + " " + CareerType[i].scre + " ");
+  //      console.log(CareerType[i].nme + " " + CareerType[i].scre + " ");
   //   }
   // }
   if (choice[userIndex] == 1) {
-    // console.log();
     answerBtn1 = activeBtn;
     answerBtn2 = btnStyle;
   } else if (choice[userIndex] == 2) {
@@ -54,14 +53,20 @@ export default function CareerTest() {
       } else return data;
     });
     setChoise(newChoice);
-    //   const newIndex = userIndex + 1;
-    userIndex == 19 ? setUserIndex(userIndex) : setUserIndex(userIndex + 1);
+    if(userIndex == 19 ){
+      setUserIndex(userIndex)
+    } 
+    else{
+      setUserIndex(userIndex + 1);
+    }
+      
   };
   const handleB = () => {
     console.log(userIndex);
     console.log("gandlA");
     if (userIndex == 19) {
       router.push("/careerresult");
+      
     }
     const newChoice = choice.map((data, index) => {
       if (index == userIndex) {
