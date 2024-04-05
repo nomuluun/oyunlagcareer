@@ -6,6 +6,7 @@ export default function Tetgeleg(){
         <div>
             <Navbar/>
             <Scholarship/>
+            <Putter/>
         </div>
     );
 }
