@@ -1,3 +1,4 @@
+import { Carousel } from "flowbite-react";
 export default function Nuurhuudas() {
   return (
     <div>
@@ -11,7 +12,7 @@ export default function Nuurhuudas() {
             Ирээдүйн чиглэлээ тодорхойлох тест, мөрөөдлийн мэргэжлээ олох
             мэдээллийн сан, илүү ихийг сурах хичээлүүдийг найзаа болгоорой!
           </p>
-          <div className="md:text-[24px] text-[16px] rounded-full text-[#373737] bg-shar text-center flex items-center justify-center font-bold hover:text-white hover:bg-amber-500 w-48 h-16">
+          <div className="tovch md:text-[24px] text-[16px] rounded-full text-[#373737] bg-shar text-center flex items-center justify-center font-bold hover:text-white hover:bg-amber-500 w-48 h-16">
             {" "}
             <button>
               {" "}
@@ -22,7 +23,7 @@ export default function Nuurhuudas() {
             <img
               src="/svg/Vector 3.png"
               alt=""
-              className="absolute  left-[32vw] top-[57vh] hidden md:block"
+              className="absolute  left-[32vw] top-[63vh] hidden md:block"
             />
           </div>
         </div>
@@ -34,7 +35,7 @@ export default function Nuurhuudas() {
           />
         </div>
       </div>
-      <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-5 text-prp font-extrabold md:px-32 md:py-10 px-10 py-8 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
+      <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-8 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
         <div>
           <p className="">48+ Мэргэжил</p>
         </div>
@@ -47,7 +48,7 @@ export default function Nuurhuudas() {
           <p>10+ Тэтгэлэг</p>
         </div>
       </div>
-      <div className="mx-auto flex max-w-screen-xl items-center justify-center mt-20 text-left text">
+      <div className="mx-auto flex max-w-screen-xl items-center justify-center mt-20 text-left text-har">
         <div className=" m-10">
           <img src="/svg/Saly-35.png" alt="" />
         </div>
@@ -115,14 +116,14 @@ export default function Nuurhuudas() {
             Бидний давуу тал
           </h1>
         </div>
-        <div className="flex max-w-[1000px] justify-between space-x-[80px] items-center m-[60px]">
+        <div className="flex max-w-[1000px] justify-between md:space-x-[80px] items-center m-[60px]">
           <div className="flex flex-col justify-center items-center text-center">
             <img
               src="/svg/Saly-9.png"
               alt=""
               className="md:w-[320px] w-[250px]"
             />
-            <h1 className="md:text-[24px] text-[16px] text-prp my-5">
+            <h1 className="md:text-[24px] text-[16px] text-prp ">
               24 цагийн үйлчилгээ
             </h1>
             <p className="md:text-[16px] text-[12px]">
@@ -158,8 +159,345 @@ export default function Nuurhuudas() {
             </p>
           </div>
           <div>
-            <img src="/svg" alt="" />
+            <img
+              src="/svg/chimeglel2.png"
+              alt=""
+              className="absolute right-[2vw] top-[310vh] hidden md:block"
+            />
           </div>
+        </div>
+      </div>
+      <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden">
+        <div className="text-har md:text-[40px] font-bold mb-[30px]">
+          <h1>Мэргэжлийн чиглэлүүд</h1>
+        </div>
+        <div className="grid md:grid-cols-4 gap-5 mt-[30px] ">
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
+                Ажиглагч
+              </h1>
+              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className=" md:hidden h-56 ">
+        <Carousel indicators={false} className="px-4">
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
+            <div className="p-5">
+              {" "}
+              <img src="/svg/Icon1.png" alt="" />
+            </div>
+            <div className="">
+              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+              <p className="text-[12px] ">Эмч, Сувилагч</p>
+            </div>
+          </div>
+        </Carousel>
+      </div>
+      <div className="md:mx-auto flex  flex-col md:flex-row items-center justify-center bg-prp max-w-[1200px] p-10 md:my-[30px] mt-[70px] rounded-[48px] mx-4">
+        <div className="flex flex-col mr-10 md:gap-5 items-center md:items-start">
+          <h1 className="text-white md:text-[32px] text-[20px] font-bold text-center ">
+            АНУ-ын засгийн газрын тэтгэлэг
+          </h1>
+          <p className="text-white md:text-[24px] text-[12px] font-medium max-w-[504px] leading-none mb-6 text-center md:text-start">
+            Unlock the power of digital assets and harness the potential of
+            cryptocurrency investments with Legite!
+          </p>
+          <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#FBA728] duration-300  text-prp rounded-full bg-shar px-5 py-3 md:px-7 md:py-4 md:text-[24px] text-[16px] font-bold md:max-w-[260px] max-w-[130px]">
+            {" "}
+            Дэлгэрэнгүй
+          </button>
+        </div>
+        <div className="bg-prp md:w-[398px] md:h-[301px] w-[250px] mt-5 md:mt-0 ">
+          <img src="/svg/homezurag.png" alt="" />
         </div>
       </div>
     </div>

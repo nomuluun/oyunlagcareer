@@ -6,7 +6,7 @@ export default function Navbar() {
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/Logo.png" width={"100px"} alt="" />
         </a>
-        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse  ">
+        <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -56,7 +56,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="Tetgeleg"
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0"
               >
                 Тэтгэлэг
@@ -64,7 +64,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="test"
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0"
               >
                 Чиглэл тест

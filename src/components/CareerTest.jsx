@@ -103,7 +103,7 @@ export default function CareerTest() {
           src="/svg/pic2.png"
           className="absolute  right-0 top-[80px] hidden lg:block"
         />
-        <div className="sm:text-md lg:text-2xl  flex flex-row justify-center font-bold text-[#373737] mb-8 lg:mb-11">
+        <div className="sm:text-md lg:text-2xl  flex flex-row justify-center font-bold text-har mb-8 lg:mb-11">
           {"Асуулт " + (userIndex + 1) + "/" + "20"}
         </div>
 
