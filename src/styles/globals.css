@@ -20,3 +20,67 @@ body {
 .box-shad {
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
 }
+.index-shadow{
+    box-shadow: 5px 5px 100px rgba(94, 23, 235, 0.08);
+}
+.tetgeleg-shadow{
+    box-shadow: 5px 5px 2px rgba(23, 31, 235, 0.25);
+}
+.tovch {
+    min-width: 217px;
+    min-height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    box-shadow: 5px 5px 20px hsla(0, 0%, 0%, 0.26);
+      background:#FFBD59 ;
+    border: none;
+    border-radius: 1000px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  .tovch:hover, .tovch:focus {
+    color: #dadadd;
+    transform: translateY(-6px);
+  }
+  
+  .tovch:hover::before, tovch:focus::before {
+    opacity: 1;
+  }
+  
+  .tovch::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #FFBD59;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .tovch:hover::after, tovch:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+
