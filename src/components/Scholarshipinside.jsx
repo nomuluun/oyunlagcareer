@@ -30,23 +30,64 @@ export default function Scholarshipinside() {
             </div>
           </div>
         </div>
-        <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-8 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
-          <div>
-            <h1>9000</h1>
-            <p>сурагч</p>
-            <p className="">Жил бүр өргөдөл илгээх сурагчдын тоо</p>
+        <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-4 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
+          <div className="p-3">
+            <h1 className="text-center">
+              9000 <span className="text-[15px]">сурагч</span>
+            </h1>
+            <p className="md:text-[16px] text-[12px] text-har font-bold text-center">
+              Жил бүр өргөдөл илгээх сурагчдын тоо
+            </p>
           </div>
           <div className="bg-prp md:w-1 w-0.5 md:h-16 h-8"></div>
           <div>
-            <h1>1800</h1>
-            <p>сурагч</p>
-            <p className="">Жил бүр өргөдөл илгээх сурагчдын тоо</p>
+            <h1 className="text-center">
+              1800 <span className="text-[15px]">сурагч</span>
+            </h1>
+            <p className="md:text-[16px] text-[12px] text-har font-bold text-center">
+              Тэнцэх сурагчдын тоо
+            </p>
           </div>
           <div className="bg-prp md:w-1 w-0.5 md:h-16 h-8"></div>
           <div>
-            <h1>287</h1>
-            <p></p>
-            <p className="">Жил бүр өргөдөл илгээх сурагчдын тоо</p>
+            <h1 className="text-center">
+              287 <span className="text-[15px]">сая доллар</span>
+            </h1>
+            <p className="md:text-[16px] text-[12px] text-har font-bold text-center ">
+              {" "}
+              1 жилд өгдөг нийт тэтгэлэгийн хэмжээ
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-center items-top">
+          <div className="bg-white rounded-[30px] drop-shadow-xl md:w-[286px] md:h-[330px] py-5 px-5 text-left text-har mx-10 my-5">
+            <div className="font-bold text-[24px] text-center mb-4">
+              <h1>Давуу тал</h1>
+            </div>
+            <div>
+              <ul className=" text-[16px] space-y-2 font-medium ">
+                <li>1.Бүх тээврийн зардал</li>
+                <li>2.Амьдрах зардал</li>
+                <li>3.Сургалтын төлбөр</li>
+                <li>4.Эрүүл мэндийн даатгал</li>
+                <li>5.Визний зардал</li>
+                <li>6.Аяллын тэтгэмж</li>
+                <li>7.Суурьших зардал</li>
+              </ul>
+            </div>
+          </div>
+          <div className="bg-white md:w-[579px] md:h-[330px] rounded-[30px] drop-shadow-xl text-har py-6 px-4 mx-10 my-5">
+            <div className="text-[24px] font-bold text-center">
+              <h1>Тавигдах шаардлага</h1>
+            </div>
+            <div>
+              <ul className="text-[16px] space-y-5 font-medium ">
+                <li>1,5 болон түүнээс дээш жилийн бүтэн цагаар ажилласан, туршлагатай байх</li>
+                <li>Дээд боловсролтой байх</li>
+                <li>Англи хэлний чадвар сайтай байж, мэргэжлийн чиглэлээсээ хамааран TOEFL IBT 80-90, TOEFL PBT/ITP 550-575, or IELTS 6.5-7.0 оноотой байх</li>
+                <li>АНУ-ын ногоон карт эзэмшигч биш байх</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

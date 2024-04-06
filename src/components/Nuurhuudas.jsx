@@ -23,7 +23,7 @@ export default function Nuurhuudas() {
             <img
               src="/svg/Vector 3.png"
               alt=""
-              className="absolute  left-[32vw] top-[63vh] hidden md:block"
+              className="absolute  left-[32vw] top-[63vh] hidden lg:block"
             />
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function Nuurhuudas() {
               Confirm your crypto invest payment{" "}
             </p>
           </div>
-          <div className="absolute left-[7vw] top-[215vh] hidden md:block">
+          <div className="absolute left-[7vw] top-[215vh] hidden lg:block">
             <img src="/svg/chimeglel.png" alt="" />
           </div>
         </div>
@@ -162,7 +162,7 @@ export default function Nuurhuudas() {
             <img
               src="/svg/chimeglel2.png"
               alt=""
-              className="absolute right-[2vw] top-[310vh] hidden md:block"
+              className="absolute right-[2vw] top-[310vh] hidden lg:block"
             />
           </div>
         </div>
