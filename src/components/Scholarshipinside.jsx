@@ -59,13 +59,13 @@ export default function Scholarshipinside() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center items-top">
+        <div className="md:flex justify-center items-top">
           <div className="bg-white rounded-[30px] drop-shadow-xl md:w-[286px] md:h-[330px] py-5 px-5 text-left text-har mx-10 my-5">
-            <div className="font-bold text-[24px] text-center mb-4">
+            <div className="font-bold md:text-[24px] text-center mb-4">
               <h1>Давуу тал</h1>
             </div>
             <div>
-              <ul className=" text-[16px] space-y-2 font-medium ">
+              <ul className=" md:text-[16px] text-[12px] space-y-2 font-medium ">
                 <li>1.Бүх тээврийн зардал</li>
                 <li>2.Амьдрах зардал</li>
                 <li>3.Сургалтын төлбөр</li>
@@ -77,11 +77,11 @@ export default function Scholarshipinside() {
             </div>
           </div>
           <div className="bg-white md:w-[579px] md:h-[330px] rounded-[30px] drop-shadow-xl text-har py-6 px-4 mx-10 my-5">
-            <div className="text-[24px] font-bold text-center">
+            <div className="md:text-[24px] font-bold text-center">
               <h1>Тавигдах шаардлага</h1>
             </div>
             <div>
-              <ul className="text-[16px] space-y-5 font-medium ">
+              <ul className="md:text-[16px]  text-[12px] space-y-5 font-medium ">
                 <li>1,5 болон түүнээс дээш жилийн бүтэн цагаар ажилласан, туршлагатай байх</li>
                 <li>Дээд боловсролтой байх</li>
                 <li>Англи хэлний чадвар сайтай байж, мэргэжлийн чиглэлээсээ хамааран TOEFL IBT 80-90, TOEFL PBT/ITP 550-575, or IELTS 6.5-7.0 оноотой байх</li>

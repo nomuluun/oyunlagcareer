@@ -10,18 +10,7 @@ export default function Navbarr() {
           <img src="/Logo.png" width={"100px"} alt="" />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
-          <button
-            type="button"
-            className=" hidden lg:block text-white border border-shar bg-shar hover:text-shar hover:bg-white focus:ring-1 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
-          >
-            Нэвтрэх
-          </button>
-          <button
-            type="button"
-            className=" hidden lg:block text-white border border-shar bg-shar hover:text-shar hover:bg-white focus:ring-1 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
-          >
-            <a href="nevtreh">Бүртгүүлэх </a>
-          </button>
+
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
