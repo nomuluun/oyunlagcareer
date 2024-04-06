@@ -8,9 +8,7 @@ import Subject from "@/components/Subject"
 export default function Home() {
   return (
   <div>
-    <Navbar/>
     <Subject/>
-    <Putter/>
     </div>
   )
 }
