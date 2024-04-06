@@ -10,15 +10,38 @@
 body {
     background-color: #F5F5F5;
 }
-/* 
-body {
-    font-family: ;
-} */
 .text-shad {
     text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
 }
 .box-shad {
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
+}
+.p-multiselect-token {
+    background-color: #5E17EB;
+    color:#fff
+}
+.p-highlight {
+    background-color: #5E17EB;
+    color: #fff
+}
+.p-checkbox-box {
+    color:#5E17EB;
+    box-shadow: 2px 2px 5px #333;
+}
+input.p-checkbox-input {
+    background-color: bisque;
+}
+.p-checkbox.p-highlight .p-checkbox-box {
+    background-color: #fff;
+}
+.p-checkbox.p-highlight .p-checkbox-box svg {
+    color: #5E17EB;
+}
+.p-multiselect:not(.p-disabled).p-focus {
+    box-shadow: none;
+}
+.p-multiselect:not(.p-disabled):hover {
+    box-shadow: 0 0 0 0.2rem #5E17EB;
 }
 .index-shadow{
     box-shadow: 5px 5px 100px rgba(94, 23, 235, 0.08);
