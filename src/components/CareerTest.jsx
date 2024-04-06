@@ -55,8 +55,8 @@ export default function CareerTest() {
          console.log(CareerType[i].nme + " " + CareerType[i].score + " ");
       }
       setResult(CareerType)
-      localStorage.setItem("dataResult", CareerType)
-
+      localStorage.setItem("result", JSON.stringify(CareerType))
+      
       router.push("/careerresult");
     } 
     else{
@@ -92,7 +92,7 @@ export default function CareerTest() {
          console.log(CareerType[i].nme + " " + CareerType[i].score + " ");
       }
       setResult(CareerType)
-      localStorage.setItem("dataResult", CareerType)
+      localStorage.setItem("result", JSON.stringify(CareerType))
       router.push("/careerresult");
     } 
     else{

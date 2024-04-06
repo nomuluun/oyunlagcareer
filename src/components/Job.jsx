@@ -1,14 +1,16 @@
-export default function Job(){
+
+export default function Job({data}){
+  console.log("jobdata",data)
     return(
         <div>
           <img src="zurg.png" className="md:w-[10vw] absolute lg:top-[50vh] lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] " alt="" />
         <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-10 mx-auto pt-[80px] h-auto">
           <div className="  p-12  text-[#373737]">
             <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
-            Санхүүгийн шинжээч
+            {data?.jobTitle}
             </h1>
             <p className=" text-[16px] font-medium my-1 py-1 tracking-wide">
-            Хөрөнгө оруулалтын стратегийг мэдээлэх, компани эсвэл үйлчлүүлэгчдэдээ хөрөнгө оруулалтын шийдвэр гаргах олон төрлийн судалгааны ажлыг хариуцдаг. 
+            {data?.aboutJob}
             </p>
             <div className="text-[20px] text-shar font-bold w-48 h-16">
               {" "}

@@ -1,20 +1,25 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from "react";
 
 const SidebarContext = createContext();
+const NowJobContext = createContext();
 
-const DataContext = ({children})=> {
-  // value = localStorage.getItem("dataResult")
+const DataContext = ({ children }) => {
   const [result, setResult] = useState(["asiiilt"]);
-
-  useEffect(()=>{
-    setResult(0);
-  },[])
+  const [nowJob, setNowJob] = useState("");
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.localStorage) {
+      let result = localStorage.getItem('result');
+      let nowJob = localStorage.getItem('nobJob');
+      setResult(result);
+      setNowJob(nowJob);
+    }
+  }, []);
   return (
     <SidebarContext.Provider value={{ result, setResult }}>
-      {children}
+      <NowJobContext.Provider value={{ nowJob, setNowJob }}>
+        {children}
+      </NowJobContext.Provider>
     </SidebarContext.Provider>
   );
-}
-export {
-  DataContext, SidebarContext
-}
+};
+export { DataContext, SidebarContext,NowJobContext };

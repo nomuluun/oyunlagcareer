@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Navbar() {
   return (
-    <nav className=" fixed top-0 w-full z-20 start-0  bg-[#f5f5f5] ">
+    <nav className=" sticky top-0 w-full z-20 start-0  bg-[#f5f5f5] ">
       <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/Logo.png" width={"100px"} alt="" />
@@ -72,7 +72,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/alljob"
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0"
               >
                 Мэргэжил

@@ -3,7 +3,8 @@ import SuggestedCareer from "./SuggestedCareer";
 import { useContext, useState } from "react";
 import { jobList } from "../../utils/data";
 export default function CareerResult() {
-  const { result, setResult } = useContext(SidebarContext);
+  const { result, setResult} = useContext(SidebarContext);
+//   console.log("restilt",result);
   const [aboutState, setAboutState] = useState(true);
   const jobs = jobList.filter((data,index)=>data.type == result[0]?.typeId);
   console.log("jos",jobs);
@@ -51,7 +52,7 @@ export default function CareerResult() {
           <img
             src="/svg/result.png"
             alt=""
-            className="drop-shadow-2xl mx-auto w-full"
+            className="drop-shadow-2xl mx-auto w-[80%]"
           />
         </div>
       </div>
