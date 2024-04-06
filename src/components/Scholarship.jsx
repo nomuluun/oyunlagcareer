@@ -13,27 +13,17 @@ export default function Scholarship() {
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
             <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
+              <img src="/svg/tetgelegicon2.png" alt="" />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
             <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
+              <img src="/tetgelegicon3.png" alt="" />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
             <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
-            </button>
-          </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow   transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
-            <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
-            </button>
-          </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow   transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
-            <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
+              <img src="/tetgelegicon4.png" alt="" />
             </button>
           </div>
         </div>
@@ -70,7 +60,7 @@ export default function Scholarship() {
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
             <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
+              <img src="/svg/tetgelegicon5.png" alt=""  className="h-[20vh] flex items-center justify-center"/>
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
