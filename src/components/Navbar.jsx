@@ -1,5 +1,8 @@
 import Image from "next/image";
-export default function Navbar() {
+import { Collapse } from 'flowbite';
+import { Navbar } from "flowbite-react";
+import 'flowbite';
+export default function Navbarr() {
   return (
     <nav className=" sticky top-0 w-full z-20 start-0  bg-[#f5f5f5] ">
       <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -7,18 +10,19 @@ export default function Navbar() {
           <img src="/Logo.png" width={"100px"} alt="" />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
+
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only ">Open main menu</span>
             <svg
               className="w-5 h-5"
               aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns=""
               fill="none"
               viewBox="0 0 17 14"
             >
@@ -48,8 +52,8 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 "
+                href="hicheel"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50 hover:y-1 "
               >
                 Хичээл
               </a>
@@ -57,7 +61,7 @@ export default function Navbar() {
             <li>
               <a
                 href="Tetgeleg"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1"
               >
                 Тэтгэлэг
               </a>
@@ -65,32 +69,21 @@ export default function Navbar() {
             <li>
               <a
                 href="test"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1"
               >
                 Чиглэл тест
               </a>
             </li>
             <li>
               <a
-                href="/alljob"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0"
+                href="#"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1"
               >
                 Мэргэжил
               </a>
+              
             </li>
           </ul>
-          <button
-            type="button"
-            className=" ml-20 text-white border border-shar bg-shar hover:text-shar hover:bg-white focus:ring-4 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
-          >
-            Нэвтрэх
-          </button>
-          <button
-            type="button"
-            className=" text-white border border-shar bg-shar hover:text-shar hover:bg-white focus:ring-4 focus:outline-none focus:ring-shar font-medium rounded-full text-sm px-4 py-2 mx-4 text-center "
-          >
-            Бүртгүүлэх
-          </button>
         </div>
       </div>
     </nav>

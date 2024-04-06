@@ -9,6 +9,7 @@ module.exports = {
     "./public/**/*.html",
      // ...
      flowbite.content(),
+      "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     colors : {
