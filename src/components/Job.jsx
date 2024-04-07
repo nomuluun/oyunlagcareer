@@ -16,7 +16,7 @@ export default function Job({data}){
               {" "}
               <button>
                 {" "}
-                <a href="#">Цааш унших</a>
+                {/* <a href="#">Цааш унших</a> */}
               </button>
             </div>
           </div>
@@ -34,9 +34,9 @@ export default function Job({data}){
             </div>
             <div>
                 <ul className="list-disc space-y-2">
-                    <li>Хөрөнгө оруулагчдын зайлсхийх боломжтой сөрөг үр дагаврыг тодорхойлно.</li>
-                    <li>Хөрөнгө оруулагчдад аль борлуулалтын талын шинжээчид чанартай ажил хийж байгааг ойлгоход тусална.</li>
-                    <li>Үйлчлүүлэгчид болон худалдан авах талын шинжээчдэд хэрэгтэй мэдээллээр хангана.</li>
+                    <li>{data?.pros[0]}</li>
+                    <li>{data?.pros[1]}</li>
+                    <li>{data?.pros[2]}</li>
                 </ul>
             </div>
           </div>
@@ -47,9 +47,9 @@ export default function Job({data}){
             </div>
             <div>
                 <ul className="list-disc space-y-2">
-                    <li>Зөвлөмжид үнэн зөв байх нь худалдах талын шинжээчдийн туршлагаас илүү их дарамт болдог.</li>
-                    <li>Хувьцааны үнэлгээг үнэн зөв гаргах анхны шинжээчдийн нэг байх дарамт үүсдэг.</li>
-                    <li>Харилцааны менежмент нь судалгааны чанараас илүү үйлчлүүлэгчдийг өдөөж болно.</li>
+                    <li>{data?.cons[0]}</li>
+                    <li>{data?.cons[1]}</li>
+                    <li>{data?.cons[2]}</li>
                 </ul>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Job({data}){
   <thead className="">
     <tr className="">
       <th></th>
-      <th className="border-l-2 border-[#373737] md:px-[5vw]">МУИС</th>
+      <th className="border-l-2 border-[#373737] md:px-[5vw]">{data?.university}</th>
       <th className="border-l-2 border-[#373737] md:px-[5vw]">МҮИС</th>
       <th className="border-l-2 border-[#373737] md:px-[5vw]">СЭЗИС</th>
       <th className="border-l-2 border-[#373737] md:px-[5vw]">ШУТИС</th>
