@@ -53,7 +53,7 @@ export default function Navbarr() {
             <li>
               <a
                 href="hicheel"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50 hover:y-1 "
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
               >
                 Хичээл
               </a>
@@ -61,7 +61,7 @@ export default function Navbarr() {
             <li>
               <a
                 href="Tetgeleg"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
               >
                 Тэтгэлэг
               </a>
@@ -69,7 +69,7 @@ export default function Navbarr() {
             <li>
               <a
                 href="test"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
               >
                 Чиглэл тест
               </a>
@@ -77,7 +77,7 @@ export default function Navbarr() {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
               >
                 Мэргэжил
               </a>
