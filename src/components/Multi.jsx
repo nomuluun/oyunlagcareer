@@ -26,9 +26,13 @@ const Multi = () => {
       { name: 'Paris', code: 'PRS' }
   ];
   return (
-    <div className=" col-span-3 my-2">
-      <p className="text-[20px] pb-5 text-[#373737]" >Хичээлүүд сонгон, мэргэжлүүдийн талаарх мэдээллийг авна уу.</p>
-      <div className="items-center justify-center w-[50vw] lg:w-[30vw]">
+    <div className=" col-span-2 my-2">
+          <h1 className="font-extrabold text-[30px] text-[#373737]">
+          Хичээлтэй холбоотой мэргэжлүүд
+        </h1>
+       
+      <p className="text-[20px] pb-7 mt-5 text-[#373737] max-w-[550px] " >Хичээлүүд сонгон, мэргэжлүүдийн талаарх мэдээллийг авна уу.</p>
+      <div className="items-center justify-center w-full lg:w-[30vw]">
             <MultiSelect value={selectedCities} onChange={(e) => setSelectedCities(e.value)} options={options} optionLabel="name" display="chip" 
                 placeholder="Сонгох" maxSelectedLabels={10} className="border-solid w-full justify-center" />
       </div>

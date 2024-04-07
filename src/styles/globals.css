@@ -41,7 +41,7 @@ input.p-checkbox-input {
     box-shadow: none;
 }
 .p-multiselect:not(.p-disabled):hover {
-    box-shadow: 0 0 0 0.2rem #5E17EB;
+    border:0.2rem solid #5E17EB;
 }
 .index-shadow{
     box-shadow: 5px 5px 100px rgba(94, 23, 235, 0.08);
@@ -104,3 +104,9 @@ input.p-checkbox-input {
     }
   }
 
+  .p-multiselect {
+    border-radius: 30px;
+    box-shadow: 0 0px 120px 0px rgba(94,23,235,0.09);
+    border : 0.2rem  solid transparent ;
+
+}

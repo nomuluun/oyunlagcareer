@@ -62,7 +62,6 @@ export default function CareerTest() {
     else{
       setUserIndex(userIndex + 1);
     }
-      
   };
   const handleB = () => {
     console.log(userIndex);
