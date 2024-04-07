@@ -53,20 +53,17 @@ export default function CareerTest() {
       } else return data;
     });
     setChoise(newChoice);
-    if(userIndex == 19 ){
-      setUserIndex(userIndex)
-    } 
-    else{
+    if (userIndex == 19) {
+      setUserIndex(userIndex);
+    } else {
       setUserIndex(userIndex + 1);
     }
-      
   };
   const handleB = () => {
     console.log(userIndex);
     console.log("gandlA");
     if (userIndex == 19) {
       router.push("/careerresult");
-      
     }
     const newChoice = choice.map((data, index) => {
       if (index == userIndex) {
