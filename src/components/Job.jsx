@@ -1,3 +1,4 @@
+import SuggestedCareer from "@/components/SuggestedCareer";
 export default function Job(){
     return(
         <div>
