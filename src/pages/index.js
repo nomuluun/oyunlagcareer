@@ -8,6 +8,7 @@ import Subject from "@/components/Subject"
 import Career from "@/components/Career"
 import Multi from "@/components/Multi"
 import Nuurhuudas from "@/components/Nuurhuudas";
+import Layout from "@/components/Layout";
 export default function Home() {
   return (
   <div>
@@ -15,3 +16,7 @@ export default function Home() {
     </div>
   )
 }
+// Layout gargah page deeree duudaj hereglene
+// Home.getLayout = function getLayout(page) {
+//   return <Layout>{page}</Layout>;
+// };
