@@ -15,7 +15,7 @@ export default function Footer(){
               <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
                 Нүүр хуудас
               </h2>
-              <ul className="text-[#373737] dark:text-gray-400 font-medium">
+              <ul className="text-[#373737] font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Бидний тухай
@@ -37,7 +37,7 @@ export default function Footer(){
               <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
                 Туслалцаа
               </h2>
-              <ul className="text-[#373737] dark:text-gray-400 font-medium">
+              <ul className="text-[#373737] font-medium">
                 <li className="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"

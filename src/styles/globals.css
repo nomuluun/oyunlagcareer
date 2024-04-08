@@ -4,7 +4,7 @@
 /* Filename: styles.css */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300'); 
 
-.body {
+body {
     background-color: #F5F5F5;
 }
 .text-shad {
