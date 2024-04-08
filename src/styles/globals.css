@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300'); 
 
 .body {
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 .text-shad {
   text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
@@ -104,18 +104,10 @@ tovch:focus::after {
     opacity: 0;
   }
 }
-
 .p-multiselect {
   border-radius: 30px;
   box-shadow: 0 0px 120px 0px rgba(94, 23, 235, 0.09);
   border: 0.2rem solid transparent;
-}
-/* .p-menubar{
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color:  #f5f5f5;
-
 }
 
 .font{

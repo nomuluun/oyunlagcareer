@@ -119,7 +119,7 @@ export default function CareerTest() {
   };
 
   return (
-    <div className="flex font flex-col justify-center items-center h-[100vh] bg-[#F5F5F5] w-full ">
+    <div className="flex font flex-col justify-center items-center pt-20 bg-[#F5F5F5] w-full ">
       <div className=" w-full max-w-[1200px]  bg-[#f5f5f5]  flex flex-col  items-center px-5">
         <img
           src="/svg/Byc.png"
