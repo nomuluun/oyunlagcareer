@@ -1,4 +1,4 @@
-export default function Putter(){
+export default function Footer(){
     return(
     <footer className="bg-white drop-shadow-2xl font mt-10">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">

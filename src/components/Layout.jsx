@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Putter from "./Putter";
+import Putter from "./Footer";
 
  
 export default function Layout({ children }) {

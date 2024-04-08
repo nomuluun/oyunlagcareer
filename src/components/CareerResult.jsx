@@ -4,7 +4,6 @@ import { useContext, useState } from "react";
 import { jobList } from "../../utils/data";
 export default function CareerResult() {
   const { result, setResult} = useContext(SidebarContext);
-//   console.log("restilt",result);
   const [aboutState, setAboutState] = useState(true);
   const jobs = jobList.filter((data,index)=>data.type == result[0]?.typeId);
   console.log("jos",jobs);
@@ -64,7 +63,6 @@ export default function CareerResult() {
             {
                 jobs?.map((data,index)=><SuggestedCareer key={index} data={data}/>)
             }
-          
         </div>
       </div>
     </div>
