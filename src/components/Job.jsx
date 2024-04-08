@@ -4,7 +4,6 @@ import SuggestedCareer from "./SuggestedCareer";
 export default function Job({ data }) {
   console.log("jobdata", data);
   const jobs = jobList.filter((dat,index)=>dat.type == data?.type && dat.id!=data?.id);
-  const pros=jobList.filter();
   return (
     <div>
       <img
