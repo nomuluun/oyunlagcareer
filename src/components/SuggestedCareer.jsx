@@ -20,7 +20,7 @@ export default function SuggestedCareer({ data }) {
           {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}{" "}
         </h1>
         <div className="flex flex-row justify-around pt-5">
-          <img src="/svg/Rectangle 14.png" alt="" className="w-[90px]" />
+          <img src={data?.img} alt="" className="w-[90px]" />
           <p className="w-[182px] ">{ab.substr(0, 50)}...</p>
         </div>
         <div className="flex space-x-5 py-5 justify-around">

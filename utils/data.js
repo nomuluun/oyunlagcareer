@@ -20,6 +20,7 @@ const jobList = [
     ],
     lesson: ["mat", "ski"],
     university: ["muis", "shutis", "hais"],
+    img: "/svg/jobs/phil.png"
   },
   {
     id: "job2",
@@ -353,6 +354,7 @@ const jobList = [
     cons: ["Систем, технологийн нарийн төвөгтэй байдал.", "Ажлын байрны аюулын эрсдэл.", "Төслийн эцсийн хугацааг биелүүлэх дарамт."],
     lesson: ["mat", "phy"],
     university: ["shutis", "muis", "gmit"],
+    img: "/svg/jobs/phil.png",
   },
   {
     id: "job25",

@@ -14,7 +14,7 @@ export default function Job({ data }) {
       <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-10 mx-auto pt-[80px] h-auto">
         <div className="  p-12  text-[#373737]">
           <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
-            {data?.jobTitle}
+          {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}
           </h1>
           <p className=" text-[16px] font-medium my-1 py-1 tracking-wide">
             {data?.aboutJob}
@@ -41,9 +41,7 @@ export default function Job({ data }) {
           </div>
           <div>
             <ul className="list-disc space-y-2">
-              <li>{data?.pros[0]}</li>
-              <li>{data?.pros[1]}</li>
-              <li>{data?.pros[2]}</li>
+              { data?.pros?.map((el, i) => (<li key={i}>{el}</li>))}
             </ul>
           </div>
         </div>
@@ -56,9 +54,7 @@ export default function Job({ data }) {
           </div>
           <div>
             <ul className="list-disc space-y-2">
-              <li>{data?.cons[0]}</li>
-              <li>{data?.cons[1]}</li>
-              <li>{data?.cons[2]}</li>
+              { data?.cons?.map((el, i) => (<li key={i}>{el}</li>))}
             </ul>
           </div>
         </div>
