@@ -17,7 +17,7 @@ export default function CareerTest() {
   let activeBtn =
     "sm:text-xl lg:text-2xl p-[20px] bg-[#FFBD59] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold box-shad mb-8 lg:mb-11";
   let btnStyle =
-    "sm:text-xl lg:text-2xl p-[20px] bg-[#5E17EB] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold hover:bg-[#FFBD59] hover:-translate-y-2 box-shad mb-8 lg:mb-11 transition-all";
+    "sm:text-xl lg:text-2xl p-[20px] bg-[#5E17EB] w-full max-w-[582px] text-[#fff] rounded-[100px] font-bold  hover:-translate-y-2 box-shad mb-8 lg:mb-11 transition-all";
   let answerBtn1, answerBtn2;
   if (choice[userIndex] == 1) {
     answerBtn1 = activeBtn;
@@ -119,7 +119,7 @@ export default function CareerTest() {
   };
 
   return (
-    <div className="flex font flex-col justify-center items-center h-[100vh] bg-[#F5F5F5] w-full ">
+    <div className="flex font flex-col justify-center items-center pt-20 bg-[#F5F5F5] w-full ">
       <div className=" w-full max-w-[1200px]  bg-[#f5f5f5]  flex flex-col  items-center px-5">
         <img
           src="/svg/Byc.png"
