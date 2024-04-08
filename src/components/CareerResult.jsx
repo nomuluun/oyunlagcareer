@@ -25,9 +25,9 @@ export default function CareerResult() {
   }
   return (
     <div>
-      <div className=" max-w-screen-xl md:grid grid-cols-2 gap-3 mx-auto pt-[80px]  h-auto">
+      <div className=" max-w-screen-xl md:grid grid-cols-2 gap-3 mx-auto font h-auto">
         <div className="  p-12  text-[#373737]">
-          <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
+          <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-4 my-4">
             Үр дүн: <br />
             Та бол <span className="text-[#5E17EB]">{result[0]?.nme}</span>{" "}
             төрлийн хүн.
@@ -48,7 +48,7 @@ export default function CareerResult() {
            
           </div>
         </div>
-        <div className="md:flex items-start justify-center px-8 py-6 hidden">
+        <div className="md:flex items-start justify-center px-8 lg:py-[2vh] py-[6vh] hidden">
           <img
             src="/svg/result.png"
             alt=""

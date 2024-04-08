@@ -4,7 +4,7 @@ export default function Job({data}){
     return(
         <div>
           <img src="zurg.png" className="md:w-[10vw] absolute lg:top-[50vh] lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] " alt="" />
-        <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-10 mx-auto pt-[80px] h-auto">
+        <div className=" font max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-10 mx-auto pt-[80px] h-auto">
           <div className="  p-12  text-[#373737]">
             <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
             {data?.jobTitle}

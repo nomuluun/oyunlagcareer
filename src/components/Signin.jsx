@@ -1,6 +1,6 @@
 export default function Signin() {
     return (
-      <div className="bg-[#F5F4F9] h-dvh flex justify-center items-center">
+      <div className="bg-[#F5F4F9] h-dvh font flex justify-center items-center">
         <div className="grid grid-cols-12 gap-4 max-w-[1200px] w-full items-center">
           <div className="col-span-7">
             <h1 className="font-extrabold md:text-[48px] relative -top-[60px] text-xl md:leading-[60px] text-[#373737] pl-5">
