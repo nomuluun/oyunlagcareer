@@ -1,11 +1,8 @@
-import SuggestedCareer from "@/components/SuggestedCareer";
 import { jobList } from "../../utils/data";
 import Career from "@/components/Career";
+import { useState } from "react";
 export default function alljob(){
-    return <div>
-        <Career/>
-        {jobList.map((data,index)=>{
-            return <SuggestedCareer data={data}/>
-        })}
+    return <div className="bg-[#f5f5f5]">
+        <Career />
     </div>
 }
