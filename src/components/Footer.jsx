@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-    <footer className="bg-white drop-shadow-2xl font mt-10">
+    <footer className="bg-white drop-shadow-2xl font mt-10 index-shadow ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -15,7 +15,7 @@ export default function Footer(){
               <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
                 Нүүр хуудас
               </h2>
-              <ul className="text-[#373737] dark:text-gray-400 font-medium">
+              <ul className="text-[#373737] font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Бидний тухай
@@ -37,7 +37,7 @@ export default function Footer(){
               <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
                 Туслалцаа
               </h2>
-              <ul className="text-[#373737] dark:text-gray-400 font-medium">
+              <ul className="text-[#373737] font-medium">
                 <li className="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"

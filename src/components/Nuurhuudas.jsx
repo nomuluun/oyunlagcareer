@@ -112,317 +112,557 @@ export default function Nuurhuudas() {
       </div>
       <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden">
         <div className="text-har md:text-[40px] font-bold mb-[30px]">
-          <h1>Мэргэжлийн чиглэлүүд</h1>
+          <h1>Мэргэжлийн зан чанарууд</h1>
         </div>
         <div className="grid md:grid-cols-4 gap-5 mt-[30px] ">
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/inspector.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Ажиглагч
+                </h1>
+                <p className="text-[14px] px-5">
+                  кибер аюулгүй байдал хангагч, архелогич
+                </p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/supporter.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Дэмжигч
+                </h1>
+                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/counselor.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Зөвлөгч
+                </h1>
+                <p className="text-[14px] px-5">сэтгэл зүйч, аялал жуучлагч</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/strategist.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Стратегич
+                </h1>
+                <p className="text-[14px] px-5">
+                  хэрэглээний математикч, эдийн засагч
+                </p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/artisan.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">Дархан</h1>
+                <p className="text-[14px] px-5">гар урлаач, барилгын инженер</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/artist.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Уран бүтээлч
+                </h1>
+                <p className="text-[14px] px-5">график дизайнер, Сувилагч</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/dreamer.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Мөрөөдөгч
+                </h1>
+                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/thinker.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">Бодогч</h1>
+                <p className="text-[14px] px-5">
+                  компьютерийн сүлжээ, биохимич
+                </p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/entreprenuer.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Хувиараа бизнес эрхлэгч
+                </h1>
+                <p className="text-[14px] px-5">бизнесийн удирдагч, Сувилагч</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/entertainer.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Хөгжөөгч
+                </h1>
+                <p className="text-[14px] px-5">дуучин, бүжигчин</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/inspirer.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Зоригжуулагч
+                </h1>
+                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+              </div>
+            </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center my-1 py-5 px-3 index-shadow">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className="my-5 px-5 text-[24px] font-bold text-prp">
-                Ажиглагч
-              </h1>
-              <p className="text-[14px] px-5">Эмч, Сувилагч</p>
-            </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/supervisor.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">Хянагч</h1>
+                <p className="text-[14px] px-5">хүний нөөц, Сувилагч</p>
+              </div>
+            </button>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/caregiver.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Санаа тавигч
+                </h1>
+                <p className="text-[14px] px-5">эх баригч, Сувилагч</p>
+              </div>
+            </button>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/executive.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Захирагч
+                </h1>
+                <p className="text-[14px] px-5">улс төрч, найруулагч</p>
+              </div>
+            </button>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/visionary.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Зөгнөгч
+                </h1>
+                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+              </div>
+            </button>
+          </div>
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+            <button>
+              <div className="p-5 flex items-center justify-center">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/mentor.png"
+                  alt=""
+                  className="w-[88px]"
+                />
+              </div>
+              <div className="">
+                <h1 className="my-3  text-[24px] font-bold text-prp">
+                  Чиглүүлэгч
+                </h1>
+                <p className="text-[14px] px-5">маркетинг, Сувилагч</p>
+              </div>
+            </button>
           </div>
         </div>
       </div>
       <div className=" md:hidden h-56 ">
         <Carousel indicators={false} className="px-4">
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/inspector.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/supporter.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Дэмжигч</h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/counselor.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Зөвлөгч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/strategist.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Стратегич</h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/artisan.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Дархан </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/artist.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Уран бүтээлч</h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/dreamer.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Мөрөөдөгч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/thinker.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Бодогч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/entreprenuer.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Хувиараа бизнес эрхлэгч</h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/entertainer.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Хөгжөөгч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/inspirer.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Зоригжуулагч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/supervisor.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp"> Хянагч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/caregiver.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp"> Санаа тавигч</h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/executive.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Захирагч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/visionary.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Зөгнөгч </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
+          </button>
+          <button>
+            <div className="flex h-full items-center justify-center bg-[#DFDFDF] rounded-3xl hover:bg-[#DFDFDF]">
+              <div className="p-5">
+                {" "}
+                <img
+                  src="/svg/Zanchanar/mentor.png"
+                  alt=""
+                  className="w-[60px]"
+                />
+              </div>
+              <div className="">
+                <h1 className=" text-[20px] font-bold text-prp">Чиглүүлэгч  </h1>
+                <p className="text-[12px] ">Эмч, Сувилагч</p>
+              </div>
             </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
-          <div className="flex h-full items-center justify-center bg-white rounded-3xl">
-            <div className="p-5">
-              {" "}
-              <img src="/svg/Icon1.png" alt="" />
-            </div>
-            <div className="">
-              <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-              <p className="text-[12px] ">Эмч, Сувилагч</p>
-            </div>
-          </div>
+          </button>
         </Carousel>
       </div>
       <div className="md:mx-auto flex  flex-col md:flex-row items-center justify-center bg-prp max-w-[1200px] p-10 md:my-[30px] mt-[70px] rounded-[48px] mx-4">
