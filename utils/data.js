@@ -431,47 +431,56 @@ const jobList = [
     img: "/svg/jobs/nanoenginer.png"
   },
 ];
-
 const lesson = [
   {
     lessonId: "mat",
     lessonName: "Математик",
+    img:"/svg/subject/mat.png"
   },
   {
     lessonId: "eng",
     lessonName: "Англи хэл",
+    img:"/svg/subject/eng.png"
   },
   {
     lessonId: "bio",
     lessonName: "Биологи",
+    img:"/svg/subject/bio.png"
   },
   {
     lessonId: "chem",
     lessonName: "Хими",
+    img:"/svg/subject/chem.png"
   },
   {
     lessonId: "phy",
     lessonName: "Физик",
+    img:"/svg/subject/phy.png"
   },
   {
     lessonId: "Geo",
     lessonName: "Газарзүй",
+    img:"/svg/subject/geo.png"
   },
   {
     lessonId: "Mon",
     lessonName: "Монгол хэл",
+    img:"/svg/subject/mon.png"
   },
   {
     lessonId: "soc",
     lessonName: "Нийгмийн ухаан",
+    img:"/svg/subject/soc.png"
   },
   {
     lessonId: "his",
     lessonName: "Түүх",
+    img:"/svg/subject/his.png"
   },
   {
     lessonId: "rus",
     lessonName: "Орос хэл",
+    img:"/svg/subject/rus.png"
   },
   {
     lessonId: "ski",
@@ -516,7 +525,6 @@ const uni = [
     uniName: "МҮИС",
   }
 ];
-
 const careerTestData = [
   {
     que: "Ямар нэг үдэшлэг, олон нийтийн арга хэмжээнд ",

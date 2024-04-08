@@ -3,7 +3,9 @@ import { jobList } from "../../utils/data";
 import SuggestedCareer from "./SuggestedCareer";
 export default function Job({ data }) {
   console.log("jobdata", data);
-  const jobs = jobList.filter((dat,index)=>dat.type == data?.type && dat.id!=data?.id);
+  const jobs = jobList.filter(
+    (dat, index) => dat.type == data?.type && dat.id != data?.id
+  );
   return (
     <div>
       <img
@@ -14,7 +16,7 @@ export default function Job({ data }) {
       <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-5 mx-auto pt-[2px] h-auto">
         <div className="  p-12  text-[#373737]">
           <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
-          {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}
+            {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}
           </h1>
           <p className=" text-[16px] font-medium my-1 py-1 tracking-wide">
             {data?.aboutJob}
@@ -39,8 +41,10 @@ export default function Job({ data }) {
             </h1>
           </div>
           <div>
-            <ul className="list-disc space-y-2 min-w-[300px]">
-              { data?.pros?.map((el, i) => (<li key={i}>{el}</li>))}
+            <ul className="list-disc space-y-2  min-w-[300px]">
+              {data?.pros?.map((el, i) => (
+                <li key={i}>{el}</li>
+              ))}
             </ul>
           </div>
         </div>
@@ -52,8 +56,10 @@ export default function Job({ data }) {
             </h1>
           </div>
           <div>
-            <ul className="list-disc space-y-2 min-w-[300px]">
-              { data?.cons?.map((el, i) => (<li key={i}>{el}</li>))}
+            <ul className="list-disc space-y-2  min-w-[300px]">
+              {data?.cons?.map((el, i) => (
+                <li key={i}>{el}</li>
+              ))}
             </ul>
           </div>
         </div>
@@ -132,7 +138,10 @@ export default function Job({ data }) {
           </table>
         </div>
       </div>
-      <div className="justify-evenly max-w-[1000px] mx-auto grid my-[10vh] md:grid-cols-3 ">
+      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center ">
+        {jobs?.map((data, index) => (
+          <SuggestedCareer key={index} data={data} />
+        ))}
       </div>
     </div>
   );
