@@ -15,7 +15,7 @@ export default function CareerResult() {
         space++;
     }
     newStr += subStr[i];
-    if(space==10)break;
+    if(space==20)break;
   }
 
   console.log(result);
@@ -29,23 +29,24 @@ export default function CareerResult() {
           <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-4 ">
             Үр дүн: <br />
           </h1>
-          <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-2 my-4 "> Та бол <span className="text-[#5E17EB]">{result[0]?.nme}</span>{" "}
-            төрлийн хүн.</h1>
+          <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-2 my-4 ">
+            {" "}
+            Та бол <span className="text-[#5E17EB]">{result[0]?.nme}</span>{" "}
+            төрлийн хүн.
+          </h1>
           <div>
             <span className="md:text-[24px] text-[16px] font-medium my-4 pt-4">
-              {aboutState ? newStr+"..." : result[0]?.aboutType}
+              {aboutState ? newStr + "..." : result[0]?.aboutType}
             </span>
             <button
-              className="md:text-[20px] text-[16px]  text-[#FFBD59]  text-center flex items-center justify-center font-medium "
+              className="md:text-[20px] text-[16px]  text-[#5E17EB]  text-center flex items-center justify-center font-medium "
               onClick={handlerBtn}
             >
               {" "}
               {aboutState ? "Цааш унших" : "Хураах"}
             </button>
           </div>
-          <div>
-           
-          </div>
+          <div></div>
         </div>
         <div className="md:flex items-start justify-center px-8 lg:py-[2vh] py-[6vh] hidden">
           <img
@@ -60,9 +61,9 @@ export default function CareerResult() {
           Танд тохирох топ мэргэжлүүд
         </h1>
         <div className="flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center">
-            {
-                jobs?.map((data,index)=><SuggestedCareer key={index} data={data}/>)
-            }
+          {jobs?.map((data, index) => (
+            <SuggestedCareer key={index} data={data} />
+          ))}
         </div>
       </div>
     </div>
