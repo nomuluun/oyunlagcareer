@@ -1,6 +1,6 @@
 import CareerResult from "@/components/CareerResult"
 import Navbar from "@/components/Navbar"
-import Putter from "@/components/Putter";
+import Putter from "@/components/Footer";
 import { SidebarContext } from "@/context/DataContext"
 import { useContext } from "react";
 export default function Page(){

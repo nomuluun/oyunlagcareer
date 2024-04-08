@@ -1,7 +1,10 @@
-import Image from 'next/image'
-export default function Navbar(){
-    return(
-          <nav className=" sticky top-0 w-full z-20 start-0  bg-[#f5f5f5] ">
+import { Collapse } from "flowbite";
+import { Menubar } from "primereact/menubar";
+export default function Navbar() {
+
+  return (
+
+    <nav className=" sticky top-0 w-full z-20 start-0  bg-[#f5f5f5] stroke fill">
           <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
@@ -10,7 +13,6 @@ export default function Navbar(){
                 />
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse  ">
-
 
           <button
             data-collapse-toggle="navbar-sticky"
@@ -45,7 +47,7 @@ export default function Navbar(){
             <li>
               <a
                 href="./"
-                className="block py-[20px] px-3 text-white bg-shar rounded md:bg-transparent md:text-shar md:p-0 "
+                className="block py-[20px] px-3 text-white bg-shar rounded md:bg-transparent md:text-shar md:focus:text-shar md:p-0 "
                 aria-current="page"
               >
                 Нүүр хуудас
@@ -54,7 +56,7 @@ export default function Navbar(){
             <li>
               <a
                 href="hicheel"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50 md:focus:text-shar "
               >
                 Хичээл
               </a>
@@ -62,7 +64,7 @@ export default function Navbar(){
             <li>
               <a
                 href="Tetgeleg"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 md:focus:text-shar "
               >
                 Тэтгэлэг
               </a>
@@ -70,7 +72,7 @@ export default function Navbar(){
             <li>
               <a
                 href="test"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 md:focus:text-shar "
               >
                 Чиглэл тест
               </a>
@@ -78,7 +80,7 @@ export default function Navbar(){
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 hover:y-1 hover:border-b-2 hover:border-har hover:rounded-none"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
               >
                 Мэргэжил
               </a>
