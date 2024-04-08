@@ -7,8 +7,9 @@ export default function Scholarship() {
         </div>
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
-            <button>
-              <img src="/svg/tetgelegicon1.png" alt="" />
+            <button href="tetgelegdotor"
+            >
+              <img src="/svg/tetgelegicon1.png" alt=""  />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
@@ -58,32 +59,32 @@ export default function Scholarship() {
           <h1>Хятад улсын засгийн газрын тэтгэлэгүүд</h1>
         </div>
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
+          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
             <button>
               <img src="/svg/tetgelegicon5.png" alt=""  className="h-[20vh] flex items-center justify-center"/>
             </button>
           </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
+          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center ">
             <button>
               <img src="/svg/tetgelegicon1.png" alt="" />
             </button>
           </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
+          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
             <button>
               <img src="/svg/tetgelegicon1.png" alt="" />
             </button>
           </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
+          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
             <button>
               <img src="/svg/tetgelegicon1.png" alt="" />
             </button>
           </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow   transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
+          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow   transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
             <button>
               <img src="/svg/tetgelegicon1.png" alt="" />
             </button>
           </div>
-          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow   transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
+          <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow   transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
             <button>
               <img src="/svg/tetgelegicon1.png" alt="" />
             </button>
@@ -93,7 +94,7 @@ export default function Scholarship() {
           <ul className="md:text-[24px] text-[16px] text-har font-bold flex flex-col md:gap-[50px] md:py-10 gap-5 py-4">
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">1. Fulbright Foreign Student Program </a>
+              <a href="">1. Chinese Government Scholarship </a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
@@ -101,7 +102,7 @@ export default function Scholarship() {
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">3. Study of the U.S. Institutes for Scholars (SUSI)</a>
+              <a href="">3. Silk Road Scholarship</a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}

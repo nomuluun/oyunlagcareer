@@ -4,9 +4,7 @@ import Putter from "@/components/Footer";
 export default function Home(){
     return(
         <div>
-            <Navbar/>
             <Scholarshipinside/>
-            <Putter/>
         </div>
     );
 }
