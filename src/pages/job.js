@@ -11,8 +11,8 @@ export default function Home() {
     const {nowJob, setNowJob} = useContext(NowJobContext)
     console.log("nowjob",nowJob)
   return (
-  <div>
-    <Job data={nowJob}/>
+    <div>
+      <Job data={nowJob}/>
     </div>
   )
 }

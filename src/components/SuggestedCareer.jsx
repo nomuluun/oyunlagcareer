@@ -6,7 +6,7 @@ import { useContext } from "react";
 export default function SuggestedCareer({ data }) {
   const router = useRouter();
   const { nowJob, setNowJob } = useContext(NowJobContext);
-  let ab = String(data.aboutJob);
+  let ab = String(data?.aboutJob);
   const handleSub = () => {
     setNowJob(data);
     // localStorage.setItem("nowJob", JSON.stringify(data))
@@ -17,7 +17,7 @@ export default function SuggestedCareer({ data }) {
       <button onClick={handleSub}>
         <h1 className="text-[24px] font-bold pt-5">
           {" "}
-          {data.jobTitle.charAt(0).toUpperCase() + data.jobTitle.slice(1)}{" "}
+          {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}{" "}
         </h1>
         <div className="flex flex-row justify-around pt-5">
           <img src="/svg/Rectangle 14.png" alt="" className="w-[90px]" />
