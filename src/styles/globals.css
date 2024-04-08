@@ -7,6 +7,7 @@
 body {
   background-color: #F5F5F5;
 }
+
 .text-shad {
   text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
 }
@@ -109,7 +110,7 @@ tovch:focus::after {
   box-shadow: 0 0px 120px 0px rgba(94, 23, 235, 0.09);
   border: 0.2rem solid transparent;
 }
-
 .font{
   font-family: "Roboto", sans-serif;
 }
+

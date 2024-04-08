@@ -30,7 +30,7 @@ export default function Scholarshipinside() {
             </div>
           </div>
         </div>
-        <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-4 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
+        <div className=" bg-[rgb(255,255,255)] rounded-full  max-w-screen-xl md:flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-4 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
           <div className="p-3">
             <h1 className="text-center">
               9000 <span className="text-[15px]">сурагч</span>
@@ -39,7 +39,7 @@ export default function Scholarshipinside() {
               Жил бүр өргөдөл илгээх сурагчдын тоо
             </p>
           </div>
-          <div className="bg-prp md:w-1 w-0.5 md:h-16 h-8"></div>
+          <div className="bg-prp md:w-1 w-full md:h-16 h-0.5 flex items-center justify-center"></div>
           <div>
             <h1 className="text-center">
               1800 <span className="text-[15px]">сурагч</span>
