@@ -133,7 +133,7 @@ export default function Job({ data }) {
           </table>
         </div>
       </div>
-      <div className="flex justify-around max-w-screen-xl mx-auto">
+      <div className="flex justify-evenly max-w-screen-xl mx-auto">
         {jobs?.map((data,index)=><SuggestedCareer key={index} data={data}/>)}
       </div>
     </div>

@@ -376,7 +376,7 @@ const jobList = [
     cons: ["Систем, технологийн нарийн төвөгтэй байдал.", "Ажлын байрны аюулын эрсдэл.", "Төслийн эцсийн хугацааг биелүүлэх дарамт."],
     lesson: ["mat", "phy"],
     university: ["shutis", "muis", "gmit"],
-    img: "/svg/jobs/tsahilgan.png",
+    img: "/svg/jobs/tsahilganenginer.png",
   },
   {
     id: "job25",
