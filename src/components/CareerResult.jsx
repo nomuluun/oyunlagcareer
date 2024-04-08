@@ -23,14 +23,14 @@ export default function CareerResult() {
     setAboutState(!aboutState);
   }
   return (
-    <div>
+    <div className="bg-[#f5f5f5]">
       <div className=" max-w-screen-xl md:grid grid-cols-2 gap-3 mx-auto font h-auto">
         <div className="  p-12  text-[#373737]">
-          <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-4 my-4">
+          <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-4 ">
             Үр дүн: <br />
-            Та бол <span className="text-[#5E17EB]">{result[0]?.nme}</span>{" "}
-            төрлийн хүн.
           </h1>
+          <h1 className="md:text-[48px] text-[32px] font-extrabold text-left leading-none py-2 my-4 "> Та бол <span className="text-[#5E17EB]">{result[0]?.nme}</span>{" "}
+            төрлийн хүн.</h1>
           <div>
             <span className="md:text-[24px] text-[16px] font-medium my-4 pt-4">
               {aboutState ? newStr+"..." : result[0]?.aboutType}

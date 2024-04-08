@@ -13,9 +13,9 @@ export default function SuggestedCareer({ data }) {
     router.push("/job");
   };
   return (
-    <div className="lg:w-[30%]  grid bg-[#ffffff] md:w-[40vw] text-[#373737] hover:bg-[#5E17EB] hover:text-[#ffffff] rounded-[48px] justify-evenly items-center shadow-[0_0px_120px_0px_rgba(94,23,235,0.09)] h-[250px] space-y-[20px] w-[60vw] max-w-[800px]">
+    <div className="lg:w-[30%] grid bg-[#ffffff] md:w-[40vw] text-[#373737] hover:bg-[#5E17EB] hover:text-[#ffffff] rounded-[48px] justify-evenly items-center shadow-[0_0px_120px_0px_rgba(94,23,235,0.09)] h-[250px] space-y-[20px] w-[70vw] max-w-[800px]">
       <button className="w-full" onClick={handleSub}>
-        <h1 className="text-[22px] font-bold pt-5">
+        <h1 className="text-[20px] font-bold pt-5">
           {" "}
           {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}{" "}
         </h1>
@@ -26,9 +26,9 @@ export default function SuggestedCareer({ data }) {
         <div className="flex space-x-1 py-5 justify-evenly">
           <p className="font-bold font">ЭЕШ өгөх хичээлүүд:</p>
           <div className="flex -space-x-[15px]">
-            <img src="/svg/bio.png" alt="" className="w-[38px]" />
-            <img src="/svg/chem.png" alt="" className="w-[38px]" />
-            <img src="/svg/math.png" alt="" className="w-[38px]" />
+            <img src="/subject/bio.png" alt="" className="w-[38px]" />
+            <img src="/subject/chem.png" alt="" className="w-[38px]" />
+            <img src="/subject/mat.png" alt="" className="w-[38px]" />
           </div>
         </div>
       </button>
