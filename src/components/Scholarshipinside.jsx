@@ -30,7 +30,7 @@ export default function Scholarshipinside() {
             </div>
           </div>
         </div>
-        <div className=" bg-[rgb(255,255,255)] rounded-full  max-w-screen-xl md:flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-4 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
+        {/* <div className=" bg-[rgb(255,255,255)] rounded-full  max-w-screen-xl md:flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-32 md:py-10 px-4 py-4 md:text-[32px] text-[18px] md:my-40 my-15 index-shadow">
           <div className="p-3">
             <h1 className="text-center">
               9000 <span className="text-[15px]">сурагч</span>
@@ -58,8 +58,8 @@ export default function Scholarshipinside() {
               1 жилд өгдөг нийт тэтгэлэгийн хэмжээ
             </p>
           </div>
-        </div>
-        <div className="md:flex justify-center items-top">
+        </div> */}
+        <div className="md:flex justify-center items-top mt-10">
           <div className="bg-white rounded-[30px] drop-shadow-xl md:w-[286px] md:h-[330px] py-5 px-5 text-left text-har mx-10 my-5">
             <div className="font-bold md:text-[24px] text-center mb-4">
               <h1>Давуу тал</h1>
