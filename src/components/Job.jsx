@@ -16,7 +16,7 @@ export default function Job({ data }) {
       <div className="  max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-5 mx-auto pt-[2px] h-auto">
         <div className="  p-12  text-[#373737]">
           <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
-            {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}
+            {data?.jobTitle}
           </h1>
           <p className=" text-[16px] font-medium my-1 py-1 tracking-wide">
             {data?.aboutJob}

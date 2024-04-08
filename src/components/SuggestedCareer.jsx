@@ -16,8 +16,8 @@ export default function SuggestedCareer({ data }) {
       <button className="w-full" onClick={handleSub}>
         <h1 className="text-[20px] font-bold pt-5">
           {" "}
-          {data?.jobTitle.charAt(0).toUpperCase() +
-            data?.jobTitle.slice(1)}{" "}
+          {
+            data?.jobTitle}{" "}
         </h1>
         <div className="flex flex-row pt-4">
           <img src={data?.img} alt="" className="w-[90px]" />
