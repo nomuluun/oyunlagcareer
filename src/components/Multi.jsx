@@ -16,7 +16,7 @@ const Multi = () => {
     { name: "Англи хэл", code: "eng" },
     { name: "Монгол хэл", code: "mon" },
   ];
-  const [selectedCities, setSelectedCities] = useState(null);
+const [selectedCities, setSelectedCities] = useState(null);  
 console.log(selectedCities);
 const filt=()=>{
   // let res = [];
