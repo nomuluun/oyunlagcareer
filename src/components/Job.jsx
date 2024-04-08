@@ -10,10 +10,10 @@ export default function Job({ data }) {
     <div>
       <img
         src="zurg.png"
-        className="md:w-[10vw] absolute lg:top-[50vh] lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] "
+        className="md:w-[10vw] absolute lg:top-[50vh] hidden lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] "
         alt=""
       />
-      <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-10 mx-auto pt-[80px] h-auto">
+      <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-5 mx-auto pt-[2px] h-auto">
         <div className="  p-12  text-[#373737]">
           <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
             {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}
@@ -34,14 +34,14 @@ export default function Job({ data }) {
           />
         </div>
         <div className="max-w-[490px] border-2 rounded-[30px] bg-[#F4F4F5] px-10 py-5 shadow-[0_0px_120px_0px_rgba(43,172,104,0.15)] mx-5">
-          <div className="flex items-center mb-3">
+          <div className="flex items-center mb-3 flex-grow-2">
             <img src="image 30.png" className="w-[50px] h-[50px]" alt="" />
             <h1 className="font-extrabold pl-3 text-[30px] text-[#2BAC68]">
               Давуу тал
             </h1>
           </div>
           <div>
-            <ul className="list-disc space-y-2">
+            <ul className="list-disc space-y-2  min-w-[300px]">
               {data?.pros?.map((el, i) => (
                 <li key={i}>{el}</li>
               ))}
@@ -56,7 +56,7 @@ export default function Job({ data }) {
             </h1>
           </div>
           <div>
-            <ul className="list-disc space-y-2">
+            <ul className="list-disc space-y-2  min-w-[300px]">
               {data?.cons?.map((el, i) => (
                 <li key={i}>{el}</li>
               ))}
@@ -73,16 +73,16 @@ export default function Job({ data }) {
             <thead className="">
               <tr className="">
                 <th></th>
-                <th className="border-l-2 border-[#373737] md:px-[5vw]">
-                  {data?.university[0]}
+                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
+                  МУИС
                 </th>
-                <th className="border-l-2 border-[#373737] md:px-[5vw]">
+                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
                   МҮИС
                 </th>
-                <th className="border-l-2 border-[#373737] md:px-[5vw]">
+                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
                   СЭЗИС
                 </th>
-                <th className="border-l-2 border-[#373737] md:px-[5vw]">
+                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
                   ШУТИС
                 </th>
               </tr>
@@ -90,47 +90,47 @@ export default function Job({ data }) {
             <tbody className="">
               <tr>
                 <td className="flex items-center w-[150px] p-7">
-                  <img src="Group 96.png" className="w-[38px] mr-3" alt="" />
+                  <img src="Group 96.png" className="w-[38px] mr-2" alt="" />
                   Математик
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:px-[5vw] ">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
                   560
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:px-[5vw] ">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
                   560
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:px-[5vw] ">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
                   560
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:px-[5vw] ">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
                   560
                 </td>
               </tr>
               <tr>
                 <td className="flex items-center p-7 w-[200px]">
-                  <img src="Group 95.png" className="w-[38px] mr-3" alt="" />
+                  <img src="Group 95.png" className="w-[38px] mr-2" alt="" />
                   Хими
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] ">560</td>
-                <td className="border-l-2 border-[#373737] w-[100px] ">560</td>
-                <td className="border-l-2 border-[#373737] w-[100px] ">560</td>
-                <td className="border-l-2 border-[#373737] w-[100px] ">560</td>
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
               </tr>
               <tr>
                 <td className="flex items-center w-[200px] p-7">
-                  <img src="Group 94.png" className="w-[38px] mr-3" alt="" />
+                  <img src="Group 94.png" className="w-[38px] mr-2" alt="" />
                   Биологи
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:p-8">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
                   560
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:p-8">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
                   560
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:p-8">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
                   560
                 </td>
-                <td className="border-l-2 border-[#373737] w-[100px] md:p-8">
+                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
                   560
                 </td>
               </tr>
@@ -138,7 +138,7 @@ export default function Job({ data }) {
           </table>
         </div>
       </div>
-      <div className="flex justify-around max-w-screen-xl mx-auto">
+      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center ">
         {jobs?.map((data, index) => (
           <SuggestedCareer key={index} data={data} />
         ))}

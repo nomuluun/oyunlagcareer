@@ -56,10 +56,10 @@ export default function CareerResult() {
         </div>
       </div>
       <div className="max-w-[1200px] m-auto ">
-        <h1 className="md:text-[48px]  text-[20px] font-bold text-center text-[#373737]">
-          Танд тохирох топ <span className="text-[#FFBD59]">3</span> мэргэжил
+        <h1 className="md:text-[34px]  text-[20px] font-bold text-center text-[#373737]">
+          Танд тохирох топ мэргэжлүүд
         </h1>
-        <div className="flex md:flex-row justify-between mt-[61px] flex-wrap flex-col p-5 gap-9 items-center">
+        <div className="flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center">
             {
                 jobs?.map((data,index)=><SuggestedCareer key={index} data={data}/>)
             }
