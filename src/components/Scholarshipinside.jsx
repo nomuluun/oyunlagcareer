@@ -24,7 +24,7 @@ export default function Scholarshipinside() {
               хамгаалах боломжийг өгдөг. (АНУ-д магистр 1-2 жилээр суралцдаг)...
             </p>
             <div className="mt-4 md:text-[20px] font-bold mb-4">
-              <a href="#" className="text-shar ">
+              <a href="https://www.tomyo.mn/?p=1232" className="text-shar ">
                 Цааш унших
               </a>
             </div>

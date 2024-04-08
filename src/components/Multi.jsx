@@ -18,7 +18,6 @@ const Multi = () => {
     { name: "Монгол хэл", code: "mon" },
   ];
   const [selectedCities, setSelectedCities] = useState(null);
-  // console.log(selectedCities);
   const selectJob = jobList.filter((data) => {
     for (let i = 0; i < selectedCities?.length; i++) {
       if (!data.lesson.includes(selectedCities[i].code)) {
@@ -27,6 +26,7 @@ const Multi = () => {
     }
     return true;
   });
+
   return (
     <div className=" col-span-2 my-2 ">
       <div className="flex flex-row justify-evenly">
