@@ -1,7 +1,7 @@
 export default function Scholarship() {
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto pt-[80px]  h-auto">
+      <div className="max-w-screen-xl mx-auto pt-[80px] font  h-auto">
         <div className="text-prp md:text-[40px] text-[24px] font-bold flex items-center justify-center mt-10">
           <h1>АНУ-ын засгийн газрын тэтгэлэгүүд</h1>
         </div>

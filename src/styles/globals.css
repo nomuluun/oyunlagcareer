@@ -1,13 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Filename: styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300'); 
 
-* {
-  font-family: "Roboto", sans-serif;
-}
-body {
-  background-color: #f5f5f5;
+.body {
+    background-color: #F5F5F5;
 }
 .text-shad {
   text-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.26);
@@ -119,34 +117,7 @@ tovch:focus::after {
   background-color:  #f5f5f5;
 
 }
-.card{
-  position: sticky;
-  top: 0%;
-  left: 0%;
-  background-color:  #f5f5f5;
-  z-index: 999;
+
+.font{
+  font-family: "Montserrat", sans-serif;
 }
-.p-menuitem-text{
-  font-weight: bold;
-}
-.p-menuitem-text:hover{
-  color:#FFBD59
-  
-}
-.p-menuitem-link:focus,
-.p-menuitem-link:active,
-.p-menuitem-link:hover,
-.p-menuitem-content:focus,
-.p-menuitem-content:active,
-.p-menuitem-content:hover,
-.p-menuitem:hover,
-.p-menuitem:active,
-.p-menuitem:focus
-{
-  background-color: red !important;
-  background: blue !important;
-  border-radius: 0 !important;
-}
-a.p-menuitem-link:focus{
-  background: none;
-} */

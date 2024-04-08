@@ -2,7 +2,7 @@ import { Carousel } from "flowbite-react";
 export default function Nuurhuudas() {
   return (
     <div>
-      <div className=" max-w-screen-xl md:grid grid-cols-2 gap-3 mx-auto   h-auto">
+      <div className=" font max-w-screen-xl md:grid grid-cols-2 gap-3 mx-auto   h-auto">
         <div className="  p-12  text-[#373737]">
           <h1 className="md:text-[48px]  text-[32px] font-bold text-left leading-none py-4 my-4">
             Ирээдүйгээ тодорхойлж, <br />

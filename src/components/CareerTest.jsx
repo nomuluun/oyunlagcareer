@@ -119,11 +119,11 @@ export default function CareerTest() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] bg-[#F5F5F5] w-[100%] border">
-      <div className=" w-[100%] max-w-[1200px]  bg-[#f5f5f5]   flex flex-col  items-center px-5">
+    <div className="flex font flex-col justify-center items-center h-[100vh] bg-[#F5F5F5] w-full ">
+      <div className=" w-full max-w-[1200px]  bg-[#f5f5f5]  flex flex-col  items-center px-5">
         <img
           src="/svg/Byc.png"
-          className="absolute right-[1vw] bottom-[7vw] w-[20%] max-w-[278px] min-w-[195px] hidden lg:block "
+          className="absolute right-[6vw] bottom-[8vw] w-[20%] max-w-[278px] min-w-[195px] hidden lg:block "
         />
         <img
           src="/svg/pic2.png"
@@ -133,7 +133,7 @@ export default function CareerTest() {
           {"Асуулт " + (userIndex + 1) + "/" + "20"}
         </div>
 
-        <div className="text-xl sm:text-2xl lg:text-4xl flex justify-center items-center w-full max-w-[810px] text-center font-bold mb-8 mt-8 lg:mb-11 lg:mt-11">
+        <div className="text-xl sm:text-2xl lg:text-4xl flex justify-center items-center w-full max-w-[810px] text-center font-bold mb-8 mt-5 lg:mb-11 lg:mt-11">
           <p className="text-shad">{careerTestData[userIndex].que}</p>
         </div>
         <button className={answerBtn1} onClick={handleA}>
@@ -142,7 +142,7 @@ export default function CareerTest() {
         <button className={answerBtn2} onClick={handleB}>
           {"Б. " + careerTestData[userIndex].a2} 
         </button>
-        <div className="flex flex-row justify-between w-full max-w-[800px] mt-8 lg:mt-11">
+        <div className="flex flex-row justify-between w-full max-w-[800px] mt-4 lg:mt-11">
           <button
             className="text-base font-bold text-prp hover:text-[#FFBD59] "
             onClick={prev}
