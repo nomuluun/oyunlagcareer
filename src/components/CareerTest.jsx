@@ -123,7 +123,7 @@ export default function CareerTest() {
       <div className=" w-full max-w-[1200px]  bg-[#f5f5f5]  flex flex-col  items-center px-5">
         <img
           src="/svg/Byc.png"
-          className="absolute right-[6vw] bottom-[8vw] w-[20%] max-w-[278px] min-w-[195px] hidden lg:block "
+          className="absolute right-[6vw] bottom-[25vh] w-[20%] max-w-[278px] min-w-[195px] hidden lg:block "
         />
         <img
           src="/svg/pic2.png"
