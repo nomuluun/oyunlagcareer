@@ -20,7 +20,7 @@ const jobList = [
     ],
     lesson: ["mat", "ski"],
     university: ["muis", "shutis", "hais"],
-    img: "/svg/jobs/phil.png"
+    img: "/svg/jobs/hottuluv.png"
   },
   {
     id: "job2",
@@ -43,6 +43,7 @@ const jobList = [
     ],
     lesson: ["mat", "phy", "eng"],
     university: ["muis", "shutis", "hais"],
+    img: "/svg/jobs/sergegdeh.png"
   },
   {
     id: "job3",
@@ -64,6 +65,7 @@ const jobList = [
     ],
     lesson: ["mat", "phy", "eng"],
     university: ["muis", "shutis", "hais"],
+    img: "/svg/jobs/ai hugjulegch.png"
   },
   {
     id: "job4",
@@ -81,6 +83,7 @@ const jobList = [
     ],
     lesson: ["mat", "eng"],
     university: ["sezis", "muis", "shutis"],
+    img: "/svg/jobs/market.png"
   },
   {
     id: "job5",
@@ -102,6 +105,7 @@ const jobList = [
     ],
     lesson: ["soc", "mon"],
     university: ["muis", "shutis", "mubis", "hais"],
+    img: "/svg/jobs/ulsturch.png"
   },
   {
     id: "job6",
@@ -122,6 +126,7 @@ const jobList = [
     ],
     lesson: ["soc", "mon", "ski"],
     university: ["", "", "",""],
+    img: "/svg/jobs/nairu.png"
   },
   {
     id: "job7",
@@ -142,6 +147,7 @@ const jobList = [
     ],
     lesson: ["chem", "bio"],
     university: ["ashius", "muis", "shutis"],
+    img: "/src/jobs/suvilagch.png"
   },
   {
     id: "job8",
@@ -162,6 +168,7 @@ const jobList = [
     ],
     lesson: ["chem", "bio"],
     university: ["ashius", "muis", "shutis"],
+    img: "/svg/jobs/ehbarigch.png"
   },
   {
     id: "job9",
@@ -174,6 +181,7 @@ const jobList = [
     cons: ["Сэтгэл хөдлөлөө шавхах ажил.", "Байнгын боловсрол, сургалт шаардлагатай.", "Сэтгэцийн эрүүл мэндийн үйлчилгээний хязгаарлагдмал даатгалд хамрагдах."],
     lesson: ["soc", "mat", "mon", "eng"],
     university: ["ashius", "muis", "shutis"],
+    img: "/svg/jobs/setgelzuich.png"
   },
   {
     id: "job10",
@@ -186,6 +194,7 @@ const jobList = [
     cons: ["Захиргааны дарамт.", "Зөрчилдөөн, гомдлыг шийдвэрлэх.", "Байгууллагын зорилготой ажилчдын хэрэгцээг тэнцвэржүүлэх."],
     lesson: ["mat", "soc", "eng"],
     university: ["muis", "sezis", "shutis"],
+    img: "/svg/jobs/nuuts.png"
   },
   {
     id: "job11",
@@ -198,6 +207,7 @@ const jobList = [
     cons: ["Санхүүгийн тодорхойгүй байдал ба өрсөлдөөн.", "Олон цаг, өндөр стресс.", "Бүтээлч ялгаа ба буулт."],
     lesson: ["mon", "soc", "ski"],
     university: ["suis", "muis", "shutis"],
+    img: "/svg/jobs/zurgavgch.png"
   },
   {
     id: "job12",
@@ -210,6 +220,7 @@ const jobList = [
     cons: ["Өрсөлдөхүйц салбар.", "Урьдчилан таамаглах боломжгүй орлого.", "Сэтгэл зүйн дарамт их."],
     lesson: ["mon", "soc", "ski"],
     university: ["muis", "suis", "shutis"],
+    img: "/svg/jobs/duuchn.png"
   },
   {
     id: "job13",
@@ -222,6 +233,7 @@ const jobList = [
     cons: ["Биеийн ачаалал ихтэй.", "Өрсөлдөөнт талбар.", "Санхүүгийн тогтворгүй байдал."],
     lesson: ["mon", "soc", "ski"],
     university: ["suis", "muis", "shutis"],
+    img: "/svg/jobs/bujigchn.png"
   },
   {
     id: "job14",
@@ -234,6 +246,7 @@ const jobList = [
     cons: ["Амжилтгүй болох өндөр эрсдэлтэй.", "Олон цаг, стресс.", "Ажилчдын амьжиргааг хариуцах."],
     lesson: ["mat", "soc", "eng"],
     university: ["muis", "sezis", "shutis"],
+    img: "/svg/jobs/bisnes.png"
   },
   {
     id: "job15",
@@ -246,6 +259,7 @@ const jobList = [
     cons: ["Тасралтгүй суралцах шаардлагатай хурдацтай хөгжиж буй салбар.", "Олон цагаар ажиллах, өндөр даралттай орчинд.", "Ёс суртахууны үүднээс авч үзэх, буруугаар ашиглах боломж."],
     lesson: ["mat", "phy", "eng"],
     university: ["shutis", "muis", "mvis"],
+    img: "/svg/jobs/comsulje.png"
   },
   {
     id: "job16",
@@ -258,6 +272,7 @@ const jobList = [
     cons: ["Ажлын боломж хязгаарлагдмал өрсөлдөөнт талбар.", "Санхүүжилтийн хязгаарлалт, тодорхойгүй байдал.", "Нарийвчилсан боловсрол, судалгаа шаардлагатай."],
     lesson: ["bio", "mat"],
     university: ["shutis", "muis"],
+    img: "/svg/jobs/biohimich.png"
   },
   {
     id: "job17",
@@ -270,6 +285,7 @@ const jobList = [
     cons: ["Академиас гадуур ажиллах боломж хязгаарлагдмал.", "Санхүүгийн аюулгүй байдал бага.", "Онолыг практик хэрэглээтэй холбоход бэрхшээлтэй."],
     lesson: ["soc", "eng"],
     university: ["muis", "humuunleg", "suis", "ashius"],
+    img: "/svg/jobs/phil.png"
   },
   {
     id: "job18",
@@ -282,6 +298,7 @@ const jobList = [
     cons: ["Хатуу хугацаа, өндөр даралттай орчин.", "Субъектив байдал, үйлчлүүлэгчийн хүсэл сонирхол.", "Сурах, дасан зохицох байнгын хэрэгцээ."],
     lesson: ["mat", "eng", "ski"],
     university: ["suis", "muis", "shutis"],
+    img: "/svg/jobs/graphic.png"
   },
   {
     id: "job19",
@@ -294,6 +311,7 @@ const jobList = [
     cons: ["Зах зээлийн эрэлт хэрэгцээ хязгаарлагдмал.", "Санхүүгийн тогтворгүй байдал.", "Биеийн ачаалал."],
     lesson: ["mon", "soc", "ski"],
     university: ["suis", "muis", "shutis"],
+    img: "/svg/jobs/garurlaach.png"
   },
   {
     id: "job20",
@@ -306,6 +324,7 @@ const jobList = [
     cons: ["Олон цаг, ачаалал ихтэй.", "Хариуцлага, зохицуулалтын хязгаарлалт.", "Эрэлтэд нөлөөлж буй эдийн засгийн уналт."],
     lesson: ["mat", "ski"],
     university: ["shutis", "muis", "mvis"],
+    img: "/svg/jobs/architect.png"
   },
   {
     id: "job21",
@@ -318,6 +337,7 @@ const jobList = [
     cons: ["Аюултай орчинд өртөх.", "Олон цагаар ажиллаж, эцсийн хугацааг шаарддаг.", "Техникийн мэдлэгийг төсвийн хязгаарлалттай тэнцвэржүүлэх."],
     lesson: ["mat", "phy"],
     university: ["shutis", "muis", "mvis"],
+    img: "/svg/jobs/barilgaenginer.png"
   },
   {
     id: "job22",
@@ -330,6 +350,7 @@ const jobList = [
     cons: ["Академиас гадуур ажиллах боломж хязгаарлагдмал.", "Өрсөлдөөнт эрдэм шинжилгээний орчин.", "Боловсрол, судалгааны байнгын хэрэгцээ."],
     lesson: ["mat", "phy"],
     university: ["shutis", "muis", "mubis"],
+    img: "/svg/jobs/maths.png"
   },
   {
     id: "job23",
@@ -342,6 +363,7 @@ const jobList = [
     cons: ["Эдийн засгийн таамаглал тодорхойгүй байна.", "Олон цагаар ажиллах, өндөр даралттай орчинд.", "Онолыг практик хэрэглээтэй тэнцвэржүүлэх."],
     lesson: ["mat", "eng", "phy"],
     university: ["muis", "sezis", "shutis"],
+    img: "/svg/jobs/edzasag.png"
   },
   {
     id: "job24",
@@ -354,7 +376,7 @@ const jobList = [
     cons: ["Систем, технологийн нарийн төвөгтэй байдал.", "Ажлын байрны аюулын эрсдэл.", "Төслийн эцсийн хугацааг биелүүлэх дарамт."],
     lesson: ["mat", "phy"],
     university: ["shutis", "muis", "gmit"],
-    img: "/svg/jobs/phil.png",
+    img: "/svg/jobs/tsahilgan.png",
   },
   {
     id: "job25",
@@ -367,6 +389,7 @@ const jobList = [
     cons: ["Шимтгэлд суурилсан орлого.", "Борлуулалтын зорилтот түвшинд хүрэх дарамт.", "Үйлчлүүлэгчийн сэтгэл ханамжийн өндөр хариуцлага."],
     lesson: ["geo", "eng"],
     university: ["muis", "shutis", "mvis"],
+    img: "/svg/jobs/aylal.png"
   },
   {
     id: "job26",
@@ -380,6 +403,7 @@ const jobList = [
     lesson: ["soc", "bio"],
     lesson: ["mat", "phy", "eng"],
     university: ["shutis", "muis", "mvis"],
+    img: "/svg/jobs/cyber.png"
   },
   {
     id: "job27",
@@ -391,6 +415,7 @@ const jobList = [
     pros: ["Соёлын өвийг олж илрүүлэх, хамгаалах.", "Янз бүрийн байршилд хээрийн ажил.", "Судалгаа, боловсролд оруулсан хувь нэмэр."],
     cons: ["Хязгаарлагдмал ажлын байр, санхүүжилт.", "Малтлагын биет шаардлага.", "Өрсөлдөөнт эрдэм шинжилгээний орчин."],
     university: ["muis", "humuunleg", "suis"],
+    img: "/svg/jobs/arhi.png"
   },
   {
     id: "job28",
@@ -403,6 +428,7 @@ const jobList = [
     cons: ["Хязгаарлагдмал ажлын байр.","Үнэтэй тоног төхөөрөмж, тоног төхөөрөмж.","Ёс зүй, аюулгүй байдлын асуудал."],
     lesson: ["mat", "chem", "phy"],
     university: ["shutis", "muis", "gmit"],
+    img: "/svg/jobs/nanoenginer.png"
   },
 ];
 
