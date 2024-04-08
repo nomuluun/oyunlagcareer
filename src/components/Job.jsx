@@ -1,21 +1,22 @@
-import SuggestedCareer from "@/components/SuggestedCareer";
-export default function Job(){
+import SuggestedCareer from "./SuggestedCareer"
+export default function Job({data}){
+  console.log("jobdata",data)
     return(
         <div>
           <img src="zurg.png" className="md:w-[10vw] absolute lg:top-[50vh] lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] " alt="" />
         <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-10 mx-auto pt-[80px] h-auto">
           <div className="  p-12  text-[#373737]">
             <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
-            Санхүүгийн шинжээч
+            {data?.jobTitle}
             </h1>
             <p className=" text-[16px] font-medium my-1 py-1 tracking-wide">
-            Хөрөнгө оруулалтын стратегийг мэдээлэх, компани эсвэл үйлчлүүлэгчдэдээ хөрөнгө оруулалтын шийдвэр гаргах олон төрлийн судалгааны ажлыг хариуцдаг. 
+            {data?.aboutJob}
             </p>
             <div className="text-[20px] text-shar font-bold w-48 h-16">
               {" "}
               <button>
                 {" "}
-                <a href="#">Цааш унших</a>
+                {/* <a href="#">Цааш унших</a> */}
               </button>
             </div>
           </div>
@@ -33,9 +34,9 @@ export default function Job(){
             </div>
             <div>
                 <ul className="list-disc space-y-2">
-                    <li>Хөрөнгө оруулагчдын зайлсхийх боломжтой сөрөг үр дагаврыг тодорхойлно.</li>
-                    <li>Хөрөнгө оруулагчдад аль борлуулалтын талын шинжээчид чанартай ажил хийж байгааг ойлгоход тусална.</li>
-                    <li>Үйлчлүүлэгчид болон худалдан авах талын шинжээчдэд хэрэгтэй мэдээллээр хангана.</li>
+                    <li>{data?.pros[0]}</li>
+                    <li>{data?.pros[1]}</li>
+                    <li>{data?.pros[2]}</li>
                 </ul>
             </div>
           </div>
@@ -46,21 +47,20 @@ export default function Job(){
             </div>
             <div>
                 <ul className="list-disc space-y-2">
-                    <li>Зөвлөмжид үнэн зөв байх нь худалдах талын шинжээчдийн туршлагаас илүү их дарамт болдог.</li>
-                    <li>Хувьцааны үнэлгээг үнэн зөв гаргах анхны шинжээчдийн нэг байх дарамт үүсдэг.</li>
-                    <li>Харилцааны менежмент нь судалгааны чанараас илүү үйлчлүүлэгчдийг өдөөж болно.</li>
+                    <li>{data?.cons[0]}</li>
+                    <li>{data?.cons[1]}</li>
+                    <li>{data?.cons[2]}</li>
                 </ul>
             </div>
           </div>
         </div>
-        <div>
             <h1 className="md:text-xl font-extrabold md:pl-[20vw] pt-[90px] pb-[60px] text-center md:text-start ">ЭЕШ өгөх хичээлүүд / босго оноо</h1>
             <div className="flex justify-center">
             <table class="table-auto text-center">
   <thead className="">
     <tr className="">
       <th></th>
-      <th className="border-l-2 border-[#373737] md:px-[5vw]">МУИС</th>
+      <th className="border-l-2 border-[#373737] md:px-[5vw]">{data?.university}</th>
       <th className="border-l-2 border-[#373737] md:px-[5vw]">МҮИС</th>
       <th className="border-l-2 border-[#373737] md:px-[5vw]">СЭЗИС</th>
       <th className="border-l-2 border-[#373737] md:px-[5vw]">ШУТИС</th>
@@ -98,6 +98,5 @@ export default function Job(){
 </table>
             </div>
         </div>
-      </div>
     )
 }
