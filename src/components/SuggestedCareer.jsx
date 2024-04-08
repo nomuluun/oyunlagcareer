@@ -13,7 +13,7 @@ export default function SuggestedCareer({ data }) {
     router.push("/job");
   };
   return (
-    <div className="lg:w-[30%] grid bg-[#ffffff] md:w-[40vw] text-[#373737] hover:bg-[#5E17EB] hover:text-[#ffffff] rounded-[48px] justify-evenly items-center shadow-[0_0px_120px_0px_rgba(94,23,235,0.09)] h-[250px] space-y-[20px] w-[70vw] max-w-[800px]">
+    <div className="grid bg-[#ffffff] md:w-[20vw] text-[#373737] hover:bg-[#5E17EB] hover:text-[#ffffff] rounded-[48px] justify-evenly items-center shadow-[0_0px_120px_0px_rgba(94,23,235,0.09)] h-[250px] space-y-[20px] w-[60vw] max-w-[800px]">
       <button className="w-full" onClick={handleSub}>
         <h1 className="text-[20px] font-bold pt-5">
           {" "}
