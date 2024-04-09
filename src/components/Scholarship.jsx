@@ -52,7 +52,7 @@ export default function Scholarship() {
           <img
             src="/svg/chimeglel2.png"
             alt=""
-            className="absolute top-[65vh] right-[20vw] hidden md:block"
+            className="absolute top-[65vh] right-[20vw] hidden lg:block"
           />
         </div>
         <div className="text-prp md:text-[40px] text-[24px] font-bold flex items-center justify-center mt-10">
