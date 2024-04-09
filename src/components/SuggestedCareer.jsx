@@ -2,7 +2,6 @@ import { DataContext, NowJobContext } from "@/context/DataContext";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useContext } from "react";
-
 export default function SuggestedCareer({ data }) {
   const router = useRouter();
   const { nowJob, setNowJob } = useContext(NowJobContext);
@@ -17,7 +16,8 @@ export default function SuggestedCareer({ data }) {
       <button className="w-full" onClick={handleSub}>
         <h1 className="text-[20px] font-bold pt-5">
           {" "}
-          {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}{" "}
+          {
+            data?.jobTitle}{" "}
         </h1>
         <div className="flex flex-row pt-4">
           <img src={data?.img} alt="" className="w-[90px]" />
@@ -26,6 +26,10 @@ export default function SuggestedCareer({ data }) {
         <div className="flex space-x-1 py-5 justify-evenly">
           <p className="font-bold font">ЭЕШ өгөх хичээлүүд:</p>
           <div className="flex -space-x-[15px]">
+            {/* {data?.lesson?.map((el, i) => (
+              // <li key={i}>{el}</li>
+              <img src="" alt="" className="w-[38px]" />
+            ))} */}
             <img src="/subject/bio.png" alt="" className="w-[38px]" />
             <img src="/subject/chem.png" alt="" className="w-[38px]" />
             <img src="/subject/mat.png" alt="" className="w-[38px]" />

@@ -47,7 +47,7 @@ export default function Navbar() {
             <li>
               <a
                 href="./"
-                className="block py-[20px] px-3 text-white bg-shar rounded md:bg-transparent md:text-shar md:focus:text-shar md:p-0 "
+                className="block py-[20px] px-3 text-[#373737] bg-shar rounded md:bg-transparent   md:p-0 md:visited:text-shar "
                 aria-current="page"
               >
                 Нүүр хуудас
@@ -55,24 +55,8 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="hicheel"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50 md:focus:text-shar "
-              >
-                Хичээл
-              </a>
-            </li>
-            <li>
-              <a
-                href="Tetgeleg"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 md:focus:text-shar "
-              >
-                Тэтгэлэг
-              </a>
-            </li>
-            <li>
-              <a
                 href="test"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 md:focus:text-shar "
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
               >
                 Чиглэл тест
               </a>
@@ -80,9 +64,25 @@ export default function Navbar() {
             <li>
               <a
                 href="alljob"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 "
               >
                 Мэргэжил
+              </a>
+            </li>
+            <li>
+              <a
+                href="hicheel"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50  "
+              >
+                Хичээл
+              </a>
+            </li>
+            <li>
+              <a
+                href="Tetgeleg"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
+              >
+                Тэтгэлэг
               </a>
             </li>
           </ul>

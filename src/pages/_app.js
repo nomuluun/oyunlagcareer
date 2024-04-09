@@ -10,3 +10,7 @@ export default function App({ Component, pageProps }) {
     </Layout>
   </DataContext>
 }
+// export default function App({ Component, pageProps }) {
+//   const getLayout = Component.getLayout ?? ((page) => page);
+//   return getLayout(<DataContext><Component {...pageProps} /></DataContext>);
+// }
