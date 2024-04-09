@@ -110,7 +110,7 @@ export default function Nuurhuudas() {
           </div>
         </div>
       </div>
-      <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden">
+      <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden max-w-screen-xl">
         <div className="text-har md:text-[40px] font-bold mb-[30px]">
           <h1>Мэргэжлийн зан чанарууд</h1>
         </div>
@@ -671,16 +671,15 @@ export default function Nuurhuudas() {
             АНУ-ын засгийн газрын тэтгэлэг
           </h1>
           <p className="text-white md:text-[24px] text-[12px] font-medium max-w-[504px] leading-none mb-6 text-center md:text-start">
-            Unlock the power of digital assets and harness the potential of
-            cryptocurrency investments with Legite!
+            Монголд алдартай тэтгэлэгүүдийн тухай мэдэхийг хүсвэл доор байгаа товчийг дараарай.
           </p>
-          <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#FBA728] duration-300  text-prp rounded-full bg-shar px-5 py-3 md:px-7 md:py-4 md:text-[24px] text-[16px] font-bold md:max-w-[260px] max-w-[130px]">
+          <button className="transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-[#FBA728] duration-300  text-prp rounded-full bg-shar px-5 py-3 md:px-7 md:py-4 md:text-[24px] text-[16px] font-bold md:max-w-[260px] max-w-[130px] text-center flex items-center justify-center">
             {" "}
             <a href="Tetgeleg">Дэлгэрэнгүй</a>
           </button>
         </div>
-        <div className="bg-prp md:w-[398px] md:h-[301px] w-[250px] mt-5 md:mt-0 ">
-          <img src="/svg/homezurag.png" alt="" />
+        <div className="bg-prp md:w-[398px]  w-[250px] mt-5 md:mt-0 flex items-center justify-center">
+          <img src="/svg/hometetgeleg.png" alt="" className="rounded-2xl" />
         </div>
       </div>
     </div>
