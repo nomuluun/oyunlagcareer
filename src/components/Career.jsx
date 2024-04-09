@@ -10,7 +10,6 @@ export default function Career() {
         className="relative col-span-1 hidden md:block w-full max-w-[500px] "
         alt=""
         />
-         <img src="gurvljin.png" className="absolute hidden md:block  top-[80px] left-[350px] w-[20vw] max-w-[200px] md:top-[250px] md:left-[45vw] rotate-12 md: " alt="" />
         </div>
         </div>
         <h1 className="font-bold pt-5 font">Хайсан илэрцүүд:</h1>
