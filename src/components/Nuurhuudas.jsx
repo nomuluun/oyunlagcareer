@@ -35,15 +35,17 @@ export default function Nuurhuudas() {
           />
         </div>
       </div>
-      <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-4 text-prp font-extrabold md:px-32 md:py-10 px-4 py-8 md:text-[32px] text-[1₮px] md:my-40 my-15 index-shadow">
+
+      <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-24 md:py-10 px-6 py-6 md:text-[28px] text-[16px] md:my-40 my-15 index-shadow">
+
         <div>
           <p className="">48+ Мэргэжил</p>
         </div>
-        <div className="bg-prp md:w-1 w-0.5 md:h-16 h-8"></div>
+        <div className="bg-prp border-solid md:w-1 w-0.5 md:h-16 h-8"></div>
         <div>
           <p>16 Төрөл</p>
         </div>
-        <div className="bg-prp md:w-1 w-0.5 md:h-16 h-8"></div>
+        <div className="bg-prp border-solid md:w-1 w-0.5 md:h-16 h-8"></div>
         <div>
           <p>10+ Тэтгэлэг</p>
         </div>
@@ -665,7 +667,7 @@ export default function Nuurhuudas() {
           </button>
         </Carousel>
       </div>
-      <div className="md:mx-auto flex  flex-col md:flex-row items-center justify-center bg-prp max-w-[1200px] p-10 md:my-[30px] mt-[70px] rounded-[48px] mx-4">
+      <div className="md:mx-auto flex  flex-col md:flex-row items-center justify-center bg-prp max-w-[1200px]  p-10 my-[30px] mt-[50px] rounded-[48px] mx-4">
         <div className="flex flex-col md:mr-10  md:gap-5  justify-center items-center md:items-start">
           <h1 className="text-white md:text-[32px] text-[20px] font-bold text-center ">
             АНУ-ын засгийн газрын тэтгэлэг
@@ -674,12 +676,15 @@ export default function Nuurhuudas() {
             Монголд алдартай тэтгэлэгүүдийн тухай мэдэхийг хүсвэл доор байгаа товчийг дараарай.
           </p>
           <button className="transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-[#FBA728] duration-300  text-prp rounded-full bg-shar px-5 py-3 md:px-7 md:py-4 md:text-[24px] text-[16px] font-bold md:max-w-[260px] max-w-[130px] text-center flex items-center justify-center">
+
             {" "}
             <a href="Tetgeleg">Дэлгэрэнгүй</a>
           </button>
         </div>
+
         <div className="bg-prp md:w-[398px]  w-[250px] mt-5 md:mt-0 flex items-center justify-center">
           <img src="/svg/hometetgeleg.png" alt="" className="rounded-2xl" />
+
         </div>
       </div>
     </div>

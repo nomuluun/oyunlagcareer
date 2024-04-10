@@ -55,22 +55,6 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="hicheel"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50  "
-              >
-                Хичээл
-              </a>
-            </li>
-            <li>
-              <a
-                href="Tetgeleg"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
-              >
-                Тэтгэлэг
-              </a>
-            </li>
-            <li>
-              <a
                 href="test"
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
               >
@@ -83,6 +67,22 @@ export default function Navbar() {
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50 "
               >
                 Мэргэжил
+              </a>
+            </li>
+            <li>
+              <a
+                href="hicheel"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0  transition hover:scale-110  delay-50  "
+              >
+                Хичээл
+              </a>
+            </li>
+            <li>
+              <a
+                href="Tetgeleg"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
+              >
+                Тэтгэлэг
               </a>
             </li>
           </ul>
