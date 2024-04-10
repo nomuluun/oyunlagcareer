@@ -2,10 +2,10 @@ export default function Subject() {
   return (
     <div className=" max-w-screen-xl font justify-items-center mx-auto pt-[10px] flex-col h-auto">
       <div>
-        <h1 className="text-har md:text-[36px] text-center m-8 p-6 font-bold">
+        <h1 className="text-har md:text-[36px] text-[24px] text-center m-8 p-6 font-bold">
           Хичээл үзэж, давтаж болох Монгол веб хуудсууд
         </h1>
-        <div className="flex flex-wrap  justify-evenly font-medium  drop-shadow-xl">
+        <div className="flex flex-wrap md:flex-wrap gap-5  justify-evenly items-center font-medium  drop-shadow-xl">
           <div className="md:m-5 max-w-[320px]">
             <button className="bg-white rounded-2xl  flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://www.tomyo.mn/?cat=2">
