@@ -5,7 +5,7 @@ import { SidebarContext } from "@/context/DataContext";
 
 // import  CareerType  from "@/utils/data";
 export default function CareerTest() {
-  const {result, setResult} = useContext(SidebarContext)
+  const { result, setResult } = useContext(SidebarContext);
   // console.log('contextResult',result)
   const router = useRouter();
   console.log(careerTestData);
@@ -38,8 +38,8 @@ export default function CareerTest() {
       } else return data;
     });
     setChoise(newChoice);
-    if(userIndex == 19){
-      setUserIndex(userIndex)
+    if (userIndex == 19) {
+      setUserIndex(userIndex);
       choice[19] = 1;
       console.log(choice[userIndex]);
       for (let i = 0; i < 20; i++) {
@@ -52,14 +52,13 @@ export default function CareerTest() {
         return b.score - a.score;
       });
       for (let i = 0; i < 16; i++) {
-         console.log(CareerType[i].nme + " " + CareerType[i].score + " ");
+        console.log(CareerType[i].nme + " " + CareerType[i].score + " ");
       }
-      setResult(CareerType)
-      localStorage.setItem("result", JSON.stringify(CareerType))
-      
+      setResult(CareerType);
+      localStorage.setItem("result", JSON.stringify(CareerType));
+
       router.push("/careerresult");
-    } 
-    else{
+    } else {
       setUserIndex(userIndex + 1);
     }
   };
@@ -74,8 +73,8 @@ export default function CareerTest() {
     setChoise(newChoice);
     const newIndex = userIndex + 1;
     setUserIndex(newIndex);
-    if(userIndex == 19){
-      setUserIndex(userIndex)
+    if (userIndex == 19) {
+      setUserIndex(userIndex);
       choice[19] = 2;
       console.log(choice[userIndex]);
       for (let i = 0; i < 20; i++) {
@@ -88,13 +87,12 @@ export default function CareerTest() {
         return b.score - a.score;
       });
       for (let i = 0; i < 16; i++) {
-         console.log(CareerType[i].nme + " " + CareerType[i].score + " ");
+        console.log(CareerType[i].nme + " " + CareerType[i].score + " ");
       }
-      setResult(CareerType)
-      localStorage.setItem("result", JSON.stringify(CareerType))
+      setResult(CareerType);
+      localStorage.setItem("result", JSON.stringify(CareerType));
       router.push("/careerresult");
-    } 
-    else{
+    } else {
       setUserIndex(userIndex + 1);
     }
   };
@@ -147,7 +145,7 @@ export default function CareerTest() {
             className="text-base font-bold text-prp hover:text-[#FFBD59] "
             onClick={prev}
           >
-            Өмнөх
+            {userIndex == 0 ? "" : " Өмнөх"}
           </button>
           <button
             className="
@@ -156,7 +154,7 @@ export default function CareerTest() {
                         hover:text-[#FFBD59]"
             onClick={next}
           >
-            Дараах
+            {userIndex > 18 ? "" : "Дараах"}
           </button>
         </div>
       </div>

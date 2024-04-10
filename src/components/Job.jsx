@@ -13,10 +13,10 @@ export default function Job({ data }) {
         className="md:w-[10vw] absolute lg:top-[50vh] hidden lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] "
         alt=""
       />
-      <div className=" max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-5 mx-auto pt-[2px] h-auto">
+      <div className="  max-w-screen-xl grid md:grid-cols-2 justify-items-center gap-x-3 gap-y-5 mx-auto pt-[2px] h-auto">
         <div className="  p-12  text-[#373737]">
           <h1 className="md:text-[48px]  text-[32px] font-extrabold text-left leading-none py-4 my-4">
-            {data?.jobTitle.charAt(0).toUpperCase() + data?.jobTitle.slice(1)}
+            {data?.jobTitle}
           </h1>
           <p className=" text-[16px] font-medium my-1 py-1 tracking-wide">
             {data?.aboutJob}
@@ -65,7 +65,7 @@ export default function Job({ data }) {
         </div>
       </div>
       <div>
-        <h1 className="md:text-xl font-extrabold md:pl-[20vw] pt-[90px] pb-[60px] text-center md:text-start ">
+        <h1 className="md:text-xl text-[20px] font-bold md:pl-[20vw] pt-[90px] pb-[60px] text-center md:text-start ">
           ЭЕШ өгөх хичээлүүд / босго оноо
         </h1>
         <div className="flex justify-center">
@@ -137,8 +137,9 @@ export default function Job({ data }) {
             </tbody>
           </table>
         </div>
+          <h1 className="md:text-xl text-[20px] font-bold pl-[3vw] pt-[60px] pb-[60px] text-center">Төстэй мэргэжлүүд</h1>
       </div>
-      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center ">
+      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-evenly mt-[5px] flex-wrap flex-col p-5 gap-9 items-center ">
         {jobs?.map((data, index) => (
           <SuggestedCareer key={index} data={data} />
         ))}
