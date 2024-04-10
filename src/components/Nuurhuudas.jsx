@@ -77,9 +77,9 @@ export default function Nuurhuudas() {
           <div className="flex flex-col justify-center items-center text-center">
             <img src="/svg/Zan.png" alt="" className="md:w-[88px]  w-[64px] " />
             <h1 className="md:text-[24px] text-[16px] md:my-5">Зан чанар</h1>
-            <p className="md:text-[16px] text-[12px]">
+            {/* <p className="md:text-[16px] text-[12px]">
               Create your Legite account on register button
-            </p>
+            </p> */}
           </div>
           <div className="md:w-[108px] w-[55px] h-1 bg-[#FFE4BA] hidden md:block"></div>
           <div className="flex flex-col justify-center items-center text-center md:mt-0 mt-5">
@@ -89,9 +89,9 @@ export default function Nuurhuudas() {
               className="md:w-[88px] md:h-[88px] w-[64px]  "
             />
             <h1 className="md:text-[24px] text-[16px] md:my-5 ">Сонирхол</h1>
-            <p className="md:text-[16px] text-[12px]">
+            {/* <p className="md:text-[16px] text-[12px]">
               Add the amount currency you want to invest on Legite
-            </p>
+            </p> */}
           </div>
           <div className="md:w-[108px]  w-[55px]  h-1 bg-[#FFE4BA] hidden md:block"></div>
           <div className="flex flex-col justify-center items-center text-center md:mt-0 mt-5">
@@ -103,9 +103,9 @@ export default function Nuurhuudas() {
             <h1 className="md:text-[24px] text-[16px] md:my-5">
               Төрөлхийн авьяас
             </h1>
-            <p className="md:text-[16px] text-[12px]">
+            {/* <p className="md:text-[16px] text-[12px]">
               Confirm your crypto invest payment{" "}
-            </p>
+            </p> */}
           </div>
           <div className="absolute left-[7vw] top-[215vh] hidden lg:block">
             <img src="/svg/chimeglel.png" alt="" />
