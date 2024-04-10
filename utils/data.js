@@ -588,6 +588,7 @@ const jobList = [
     id:"job29",
     jobTitle:"Мэс заслын эмч",
     aboutJob:"",
+    lesson: ["chem", "bio", "eng"],
     type:"zahiragch",
   },
 
@@ -619,12 +620,12 @@ const lesson = [
     img: "/svg/subject/phy.png",
   },
   {
-    lessonId: "Geo",
+    lessonId: "geo",
     lessonName: "Газарзүй",
     img: "/svg/subject/geo.png",
   },
   {
-    lessonId: "Mon",
+    lessonId: "mon",
     lessonName: "Монгол хэл",
     img: "/svg/subject/mon.png",
   },
@@ -685,6 +686,10 @@ const uni = [
   {
     uniId: "mvis",
     uniName: "МҮИС",
+  },
+  {
+    uniId: "gmit",
+    uniName: "МГХАМТИС",
   },
 ];
 const careerTestData = [
