@@ -35,7 +35,9 @@ export default function Nuurhuudas() {
           />
         </div>
       </div>
+
       <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-24 md:py-10 px-6 py-6 md:text-[28px] text-[16px] md:my-40 my-15 index-shadow">
+
         <div>
           <p className="">48+ Мэргэжил</p>
         </div>
@@ -65,7 +67,7 @@ export default function Nuurhuudas() {
           </a>
         </div>
       </div>
-      <div className="mx-auto flex flex-col justify-center items-center text-har font-bold mt-[100px] md:mb-[250px] mb-[125px]">
+      <div className="mx-auto flex flex-col justify-center items-center text-har font-bold mt-[100px] md:mb-[250px] ">
         <div>
           <h1 className="text-center md:text-[32px] max-w-[937px] text-[24px]">
             Танд аль мэргэжил хамгийн сайн тохирохыг олж мэдэхэд тусална.
@@ -110,7 +112,7 @@ export default function Nuurhuudas() {
           </div>
         </div>
       </div>
-      <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden">
+      <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden max-w-screen-xl">
         <div className="text-har md:text-[40px] font-bold mb-[30px]">
           <h1>Мэргэжлийн зан чанарууд</h1>
         </div>
@@ -130,7 +132,7 @@ export default function Nuurhuudas() {
                   Ажиглагч
                 </h1>
                 <p className="text-[14px] px-5">
-                  кибер аюулгүй байдал хангагч, архелогич
+                  Кибер аюулгүй байдал хангагч, Архелогич
                 </p>
               </div>
             </button>
@@ -149,7 +151,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Дэмжигч
                 </h1>
-                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+                <p className="text-[14px] px-5">Нийгмийн ажилтан, Мэргэжил сонголтын зөвлөх</p>
               </div>
             </button>
           </div>
@@ -167,7 +169,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Зөвлөгч
                 </h1>
-                <p className="text-[14px] px-5">сэтгэл зүйч, аялал жуучлагч</p>
+                <p className="text-[14px] px-5">Сэтгэл зүйч, Аялал жуучлагч</p>
               </div>
             </button>
           </div>
@@ -186,7 +188,7 @@ export default function Nuurhuudas() {
                   Стратегич
                 </h1>
                 <p className="text-[14px] px-5">
-                  хэрэглээний математикч, эдийн засагч
+                  Хэрэглээний математикч, Эдийн засагч
                 </p>
               </div>
             </button>
@@ -203,7 +205,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className="my-3  text-[24px] font-bold text-prp">Дархан</h1>
-                <p className="text-[14px] px-5">гар урлаач, барилгын инженер</p>
+                <p className="text-[14px] px-5">Гар урлаач, Барилгын инженер</p>
               </div>
             </button>
           </div>
@@ -221,7 +223,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Уран бүтээлч
                 </h1>
-                <p className="text-[14px] px-5">график дизайнер, Сувилагч</p>
+                <p className="text-[14px] px-5">График дизайнер, Тоглоом зохион бүтээгч</p>
               </div>
             </button>
           </div>
@@ -239,7 +241,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Мөрөөдөгч
                 </h1>
-                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+                <p className="text-[14px] px-5">Судлаач, Төслийн менежер</p>
               </div>
             </button>
           </div>
@@ -256,7 +258,7 @@ export default function Nuurhuudas() {
               <div className="">
                 <h1 className="my-3  text-[24px] font-bold text-prp">Бодогч</h1>
                 <p className="text-[14px] px-5">
-                  компьютерийн сүлжээ, биохимич
+                  Компьютерийн сүлжээ, Биохимич
                 </p>
               </div>
             </button>
@@ -275,7 +277,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Хувиараа бизнес эрхлэгч
                 </h1>
-                <p className="text-[14px] px-5">бизнесийн удирдагч, Сувилагч</p>
+                <p className="text-[14px] px-5">Бизнесийн удирдагч,Маркетинг</p>
               </div>
             </button>
           </div>
@@ -311,7 +313,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Зоригжуулагч
                 </h1>
-                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+                <p className="text-[14px] px-5">Улс төрч, Хүний нөөцийн менежмент </p>
               </div>
             </button>
           </div>
@@ -327,7 +329,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className="my-3  text-[24px] font-bold text-prp">Хянагч</h1>
-                <p className="text-[14px] px-5">хүний нөөц, Сувилагч</p>
+                <p className="text-[14px] px-5">Хүний нөөц,Зохион байгуулагч </p>
               </div>
             </button>
           </div>
@@ -345,7 +347,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Санаа тавигч
                 </h1>
-                <p className="text-[14px] px-5">эх баригч, Сувилагч</p>
+                <p className="text-[14px] px-5">Эх баригч, Сувилагч</p>
               </div>
             </button>
           </div>
@@ -363,7 +365,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Захирагч
                 </h1>
-                <p className="text-[14px] px-5">улс төрч, найруулагч</p>
+                <p className="text-[14px] px-5">Улс төрч, Найруулагч</p>
               </div>
             </button>
           </div>
@@ -381,7 +383,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Зөгнөгч
                 </h1>
-                <p className="text-[14px] px-5">Эмч, Сувилагч</p>
+                <p className="text-[14px] px-5">Хот төлөвлөгч, Хиймэл оюун ухаан хөгжүүлэгч</p>
               </div>
             </button>
           </div>
@@ -399,7 +401,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Чиглүүлэгч
                 </h1>
-                <p className="text-[14px] px-5">маркетинг, Сувилагч</p>
+                <p className="text-[14px] px-5">Маркетинг, Дасгалжуулагч</p>
               </div>
             </button>
           </div>
@@ -419,7 +421,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Ажиглагч</h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Кибер аюулгүй байдал хангагч, Архелогич</p>
               </div>
             </div>
           </button>
@@ -435,7 +437,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Дэмжигч</h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Нийгмийн ажилтан, Мэргэжил сонголтын зөвлөх</p>
               </div>
             </div>
           </button>
@@ -451,7 +453,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Зөвлөгч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Сэтгэл зүйч, Аялал жуучлагч</p>
               </div>
             </div>
           </button>
@@ -467,7 +469,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Стратегич</h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Хэрэглээний математикч, Эдийн засагч</p>
               </div>
             </div>
           </button>
@@ -483,7 +485,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Дархан </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Гар урлаач, Барилгын инженер</p>
               </div>
             </div>
           </button>
@@ -499,7 +501,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Уран бүтээлч</h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">График дизайнер, Тоглоом зохион бүтээгч</p>
               </div>
             </div>
           </button>
@@ -515,7 +517,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Мөрөөдөгч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Судлаач, Төслийн менежер</p>
               </div>
             </div>
           </button>
@@ -531,7 +533,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Бодогч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Компьютерийн сүлжээ, Биохимич</p>
               </div>
             </div>
           </button>
@@ -547,7 +549,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Хувиараа бизнес эрхлэгч</h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Бизнесийн удирдагч,Маркетинг</p>
               </div>
             </div>
           </button>
@@ -563,7 +565,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Хөгжөөгч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">дуучин, бүжигчин</p>
               </div>
             </div>
           </button>
@@ -579,7 +581,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Зоригжуулагч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Улс төрч, Хүний нөөцийн менежмент</p>
               </div>
             </div>
           </button>
@@ -595,7 +597,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp"> Хянагч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Хүний нөөц,Зохион байгуулагч</p>
               </div>
             </div>
           </button>
@@ -611,7 +613,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp"> Санаа тавигч</h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Эх баригч, Сувилагч</p>
               </div>
             </div>
           </button>
@@ -627,7 +629,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Захирагч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Улс төрч, Найруулагч</p>
               </div>
             </div>
           </button>
@@ -643,7 +645,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Зөгнөгч </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Хот төлөвлөгч, Хиймэл оюун ухаан хөгжүүлэгч</p>
               </div>
             </div>
           </button>
@@ -659,7 +661,7 @@ export default function Nuurhuudas() {
               </div>
               <div className="">
                 <h1 className=" text-[20px] font-bold text-prp">Чиглүүлэгч  </h1>
-                <p className="text-[12px] ">Эмч, Сувилагч</p>
+                <p className="text-[12px] ">Маркетинг, Дасгалжуулагч</p>
               </div>
             </div>
           </button>
@@ -671,16 +673,18 @@ export default function Nuurhuudas() {
             АНУ-ын засгийн газрын тэтгэлэг
           </h1>
           <p className="text-white md:text-[24px] text-[12px] font-medium max-w-[504px] leading-none mb-6 text-center md:text-start">
-            Unlock the power of digital assets and harness the potential of
-            cryptocurrency investments with Legite!
+            Монголд алдартай тэтгэлэгүүдийн тухай мэдэхийг хүсвэл доор байгаа товчийг дараарай.
           </p>
-          <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#FBA728] duration-300  text-prp rounded-full bg-shar px-4 py-3 md:px-7 md:py-4 md:text-[24px] text-[16px] font-bold md:max-w-[260px] max-w-[130px]">
+          <button className="transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-[#FBA728] duration-300  text-prp rounded-full bg-shar px-5 py-3 md:px-7 md:py-4 md:text-[24px] text-[16px] font-bold md:max-w-[260px] max-w-[130px] text-center flex items-center justify-center">
+
             {" "}
-            Дэлгэрэнгүй
+            <a href="Tetgeleg">Дэлгэрэнгүй</a>
           </button>
         </div>
-        <div className="bg-prp md:w-[398px] md:h-[301px] w-[200px] mt-10 ">
-          <img className="rounded-xl" src="image 87.png" alt="" />
+
+        <div className="bg-prp md:w-[398px]  w-[250px] mt-5 md:mt-0 flex items-center justify-center">
+          <img src="/svg/hometetgeleg.png" alt="" className="rounded-2xl" />
+
         </div>
       </div>
     </div>
