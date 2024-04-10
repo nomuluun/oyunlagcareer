@@ -431,10 +431,7 @@ const jobList = [
     university: ["shutis", "muis", "gmit"],
     img: "/svg/jobs/nanoenginer.png"
   },
-  {
-    id:"job29",
-    jobTitle
-  },
+  
 ];
 const lesson = [
   {
@@ -490,6 +487,7 @@ const lesson = [
   {
     lessonId: "ski",
     lessonName: "Ур чадвар",
+    img:"/svg/subject/ski.png"
   },
 ];
 const uni = [

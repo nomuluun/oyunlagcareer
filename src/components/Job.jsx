@@ -8,7 +8,7 @@ export default function Job({ data }) {
     (dat, index) => dat.type == data?.type && dat.id != data?.id
   );
   return (
-    <div>
+    <div className="">
       <img
         src="zurg.png"
         className="md:w-[10vw] absolute lg:top-[50vh] hidden lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] "
@@ -65,7 +65,7 @@ export default function Job({ data }) {
           </div>
         </div>
       </div>
-      <div>
+      <div >
         <h1 className="md:text-xl text-[20px] font-bold md:pl-[20vw] pt-[90px] pb-[60px] text-center md:text-start ">
           ЭЕШ өгөх хичээлүүд / босго оноо
         </h1>
@@ -100,18 +100,14 @@ export default function Job({ data }) {
                 for (let i = 0; i < lesson.length; i++) {
                   if (lesson[i].lessonId == lessonData) {
                     lesName = lesson[i].lessonName;
-                    lesImg= lesson[i].img;
+                    lesImg = lesson[i].img;
                     break;
                   }
                 }
                 return (
                   <tr>
                     <td className="flex items-center p-7 w-[200px]">
-                      <img
-                        src={lesImg}
-                        className="w-[38px] mr-2"
-                        alt=""
-                      />
+                      <img src={lesImg} className="w-[38px] mr-2" alt="" />
                       {lesName}
                     </td>
                     {data?.university?.map((uniDat) => (
@@ -129,7 +125,7 @@ export default function Job({ data }) {
           Төстэй мэргэжлүүд
         </h1>
       </div>
-      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-evenly mt-[5px] flex-wrap flex-col p-5 gap-9 items-center ">
+      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-center mt-[5px] flex-wrap flex-col p-5 gap-9 items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border ">
         {jobs?.map((data, index) => (
           <SuggestedCareer key={index} data={data} />
         ))}
