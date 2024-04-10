@@ -1,7 +1,56 @@
 export default function Subject() {
   return (
-    <div className=" max-w-screen-xl font md:grid md:grid-cols-4 justify-items-center gap-3 mx-auto pt-[10px]  h-auto">
-      <div className="md:col-span-1 w-full md:pr-5 ">
+    <div className=" max-w-screen-xl font justify-items-center mx-auto pt-[10px] flex-col h-auto">
+      <div>
+        <h1 className="text-har md:text-[36px] text-center m-8 p-6 font-bold">
+          Хичээл үзэж, давтаж болох Монгол веб хуудсууд
+        </h1>
+        <div className="flex flex-wrap  justify-evenly font-medium  drop-shadow-xl">
+          <div className="md:m-5 max-w-[320px]">
+            <button className="bg-white rounded-2xl  flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+              <a href="https://www.tomyo.mn/?cat=2">
+                <img src="/svg/hicheel/tomyo.png" alt="" className="p-4 md:h-[130px] max-w-[320px]"/>
+              </a>
+            </button>
+          </div>
+          <div className="md:m-5 max-w-[320px] ">
+            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+              <a href="https://yesh.mn/">
+                <img src="/svg/hicheel/yesh.png" alt="" className=" p-4 md:h-[130px] max-w-[320px]" />
+              </a>
+            </button>
+          </div>
+          <div className="md:m-5 max-w-[320px]">
+            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+              <a href="https://itembank.eec.mn/items/1">
+                <img src="/svg/hicheel/but.png" alt="" className=" p-4 md:h-[130px] max-w-[320px]" />
+              </a>
+            </button>
+          </div>
+          <div className="md:m-5 max-w-[320px] ">
+            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+              <a href="https://integral.mn/problems">
+                <img src=" /svg/hicheel/integral.png" alt="" className="  p-4 md:h-[130px] max-w-[320px]" />
+              </a>
+            </button>
+          </div>
+          <div className="md:m-5 max-w-[320px]">
+            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+              <a href="https://mn.khanacademy.org/">
+                <img src="/svg/hicheel/khan.png" alt="" className="p-4 md:h-[130px] max-w-[320px]" />
+              </a>
+            </button>
+          </div>
+          <div className="md:m-5 max-w-[320px] ">
+            <button className="bg-white rounded-2xl flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+              <a href="https://www.bagshiintuslah800.mn/">
+                <img src="/svg/hicheel/tuslah.png" alt="" className=" p-4 h-[130px] max-w-[320px]" />
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      {/* <div className="md:col-span-1 w-full md:pr-5 ">
         <h1 className="font-bold font text-[#373737] text-[32px] md:text-start md:pl-5 text-center py-7">
           Хичээлүүд
         </h1>
@@ -43,8 +92,8 @@ export default function Subject() {
             <p className="font-[16px] font pl-3">Газарзүй</p>
           </button>
         </div>
-      </div>
-      <div className="col-span-3 py-10 px-5">
+      </div> */}
+      {/* <div className="col-span-3 py-10 px-5">
         <form className=" mx-auto w-full">
           <label
             for="hicheel"
@@ -77,7 +126,7 @@ export default function Subject() {
            <p className="text-center pl-2 md:pt-1 pt-1 font">Дасгал ажил хийх</p>
             </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
