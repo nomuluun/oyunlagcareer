@@ -60,12 +60,16 @@ const Multi = () => {
             src="gurvljin.png"
             className="absolute hidden md:block  top-[80px] left-[350px] w-[20vw] max-w-[200px] md:top-[250px] md:left-[45vw] rotate-12 md: "
             alt=""
-          />  
+          />
         </div>
       </div>
       <div className=" w-full">
         <h1 className="font-bold pt-5 font">Хайсан илэрцүүд:</h1>
-        <div className="flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center max-w-screen-xl mx-auto ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full justify-evenly mt-[30px] flex-wrap p-5 gap-9 items-center
+          max-w-screen-xl mx-auto">
+          {/* className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full
+          justify-evenly mt-[30px] flex-wrap p-5 gap-9 items-center
+          max-w-screen-xl mx-auto" */}
           {selectJob.map((data, index) => {
             return <SuggestedCareer data={data} />;
           })}
@@ -75,3 +79,4 @@ const Multi = () => {
   );
 };
 export default Multi;
+// flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center max-w-screen-xl mx-auto md:grid-cols-3 md:pt-[10px]

@@ -583,12 +583,14 @@ const jobList = [
     university: ["shutis", "muis", "gmit"],
     img: "/svg/jobs/nanoenginer.png",
   },
+
   {
     id:"job29",
     jobTitle:"Мэс заслын эмч",
     aboutJob:"",
     type:"zahiragch",
   },
+
 ];
 const lesson = [
   {
@@ -644,6 +646,7 @@ const lesson = [
   {
     lessonId: "ski",
     lessonName: "Ур чадвар",
+    img:"/svg/subject/ski.png"
   },
 ];
 const uni = [
