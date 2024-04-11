@@ -19,6 +19,8 @@ const Multi = () => {
   ];
   const [selectedCities, setSelectedCities] = useState(null);
   const selectJob = jobList.filter((data) => {
+    // console.log("data lesson " + data.lesson);
+    // console.log("selected cities " +selectedCities);
     for (let i = 0; i < selectedCities?.length; i++) {
       if (!data.lesson.includes(selectedCities[i].code)) {
         return false;

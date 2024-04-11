@@ -588,12 +588,12 @@ const jobList = [
     id:"job29",
     jobTitle:"Мэс заслын эмч",
     aboutJob:"мэс засал хийх зайлшгүй шаардлагатай эмээр эмчлэгдэхгүй өвчнийг болон гэмтлийг мэс заслын зориулалтын тусгай багаж хэрэгслээр мэс ажилбар хийж ангаадаг хүнийг нэрлэнэ. Мэс заслын эмч нь бусад анагаах ухааны эмчийн салбартай харьцуулахад хожуу үүсчээ.",
+    lesson: ["chem", "bio", "eng"],
     type:"zahiragch",
     pros:[
       "Эрэлт их.",
       "Нэр хүндтэй болно.",
       "Хүмүүсийн амь аварна.",
-
     ],
     cons:[
      "Олон цагаар ажиллана.",
@@ -1052,12 +1052,12 @@ const lesson = [
     img: "/svg/subject/phy.png",
   },
   {
-    lessonId: "Geo",
+    lessonId: "geo",
     lessonName: "Газарзүй",
     img: "/svg/subject/geo.png",
   },
   {
-    lessonId: "Mon",
+    lessonId: "mon",
     lessonName: "Монгол хэл",
     img: "/svg/subject/mon.png",
   },
@@ -1119,6 +1119,14 @@ const uni = [
     uniId: "mvis",
     uniName: "МҮИС",
   },
+  {
+    uniId: "gmit",
+    uniName: "МГХАМТИС",
+  },
+  {
+    uniId: "suis",
+    uniName: "СУИС",
+  }
 ];
 const careerTestData = [
   {

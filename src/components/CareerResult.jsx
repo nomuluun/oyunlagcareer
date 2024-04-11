@@ -58,9 +58,9 @@ export default function CareerResult() {
       </div>
       <div className="max-w-[1200px] m-auto ">
         <h1 className="md:text-[34px]  text-[20px] font-bold text-center text-[#373737]">
-          Танд тохирох топ мэргэжлүүд
+          Танд санал болгож буй мэргэжлүүд
         </h1>
-        <div className="flex md:flex-row justify-evenly mt-[30px] flex-wrap flex-col p-5 gap-9 items-center">
+        <div className=" max-w-screen-xl mx-auto md:flex-row mt-[5px] flex-wrap flex-col p-5 gap-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-evenly">
           {jobs?.map((data, index) => (
             <SuggestedCareer key={index} data={data} />
           ))}
