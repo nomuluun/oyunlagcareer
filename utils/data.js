@@ -691,6 +691,10 @@ const uni = [
     uniId: "gmit",
     uniName: "МГХАМТИС",
   },
+  {
+    uniId: "suis",
+    uniName: "СУИС",
+  }
 ];
 const careerTestData = [
   {
