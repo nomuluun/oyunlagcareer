@@ -1,4 +1,9 @@
-export default function Scholarshipinside() {
+import { scholarship } from "../../utils/data";
+export default function Scholarshipinside({data}) {
+  
+  console.log("data " + data);
+  let header=scholarship[data]?.scholarTitle;
+  console.log(header);
   return (
     <div>
       <div className="max-w-screen-xl font mx-auto pt-[80px]  ">
@@ -11,17 +16,11 @@ export default function Scholarshipinside() {
           </div>
           <div className="text-har">
             <h1 className="md:text-[32px] text-[24px] font-bold">
-              1. Fulbright Foreign Student Program
+              {/* 1. Fulbright Foreign Student Program */}
+              {header}
             </h1>
             <p className="max-w-[588px] md:text-[20px] text-[16px]">
-              Энэхүү програм нь магистрын зэрэг олгох бүрэн хэмжээний тэтгэлэг
-              юм. Хөтөлбөрийн сонгон шалгаруулалт 1 жилийн хугацаанд үргэлжилж,
-              шалгарсан оролцогчид өргөдөл гаргасны дараа зун хөтөлбөрөө
-              эхлүүлнэ. Энэхүү тэтгэлэгт манай улсын оюутнууд түгээмэл
-              хамрагддаг бөгөөд жил бүр дэлхийн хэмжээнд{" "}
-              <span className="font-extrabold">1800</span> гаруй залууст үнэ
-              төлбөргүй <span className="font-extrabold">магистраа </span>
-              хамгаалах боломжийг өгдөг. (АНУ-д магистр 1-2 жилээр суралцдаг)...
+              {scholarship[data].aboutScholar}
             </p>
             <div className="mt-4 md:text-[20px] font-bold mb-4">
               <a href="https://www.tomyo.mn/?p=1232" className="text-shar ">
@@ -37,13 +36,9 @@ export default function Scholarshipinside() {
             </div>
             <div>
               <ul className=" md:text-[16px] text-[12px] space-y-2 font-medium ">
-                <li>1.Бүх тээврийн зардал</li>
-                <li>2.Амьдрах зардал</li>
-                <li>3.Сургалтын төлбөр</li>
-                <li>4.Эрүүл мэндийн даатгал</li>
-                <li>5.Визний зардал</li>
-                <li>6.Аяллын тэтгэмж</li>
-                <li>7.Суурьших зардал</li>
+                {scholarship[data]?.pros?.map((el, i) => (
+                  <li key={i}>{el}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -53,10 +48,9 @@ export default function Scholarshipinside() {
             </div>
             <div>
               <ul className="md:text-[16px]  text-[12px] space-y-5 font-medium ">
-                <li>1,5 болон түүнээс дээш жилийн бүтэн цагаар ажилласан, туршлагатай байх</li>
-                <li>Дээд боловсролтой байх</li>
-                <li>Англи хэлний чадвар сайтай байж, мэргэжлийн чиглэлээсээ хамааран TOEFL IBT 80-90, TOEFL PBT/ITP 550-575, or IELTS 6.5-7.0 оноотой байх</li>
-                <li>АНУ-ын ногоон карт эзэмшигч биш байх</li>
+                {scholarship[data]?.require?.map((el, i) => (
+                  <li key={i}>{el}</li>
+                ))}
               </ul>
             </div>
           </div>
