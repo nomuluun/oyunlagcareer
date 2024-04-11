@@ -602,7 +602,7 @@ const jobList = [
     ],
     lesson:["chem", "bio","eng",],
     university:["ashius",],
-    img:"",
+    img:"/mergejil/mes.png",
   },
   {
     id:"job30",
@@ -619,7 +619,7 @@ const jobList = [
     ],
     lesson:["soc", "Mon", "ski", "mat",],
     university:["muis", "bhis",],
-    img:"",
+    img:"/mergejil/dasgal.png",
   },
   {
     id:"job31",
@@ -640,7 +640,7 @@ const jobList = [
       "muis",
       "humuunleg",
     ],
-    img:"",
+    img:"/mergejil/mergejil.png",
   },
   {
     id:"job32",
@@ -658,13 +658,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/zb.png",
   },
   {
     id:"job33",
     jobTitle:"Менежер",
     aboutJob:"",
-    type:"",
+    type:"hyanagch",
     pros:["Манлайлах боломж, багаа удирдах боломж.",
     "Ажлын тогтвортой байдал, албан тушаал ахих боломжтой.",
     "Төрөл бүрийн үүрэг, хариуцлага нь мэргэжлийн өсөлтөд хүргэдэг.",
@@ -676,13 +676,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/men.png",
   },
   {
     id:"job34",
     jobTitle:"Бичээч",
     aboutJob:"",
-    type:"",
+    type:"muruudugch",
     pros:[
 
     ],
@@ -691,13 +691,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/bicheech.png",
   },
   {
     id:"job35",
     jobTitle:"Төслийн менежер",
     aboutJob:"",
-    type:"",
+    type:"muruudugch",
     pros:[
 
     ],
@@ -706,13 +706,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/tusul.png",
   },
   {
     id:"job36",
     jobTitle:"Нийгмийн ажилтан",
     aboutJob:"",
-    type:"",
+    type:"demjigch",
     pros:[
 
     ],
@@ -721,13 +721,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/niigem.png",
   },
   {
     id:"job37",
     jobTitle:"Байгаль хамгаалагч",
     aboutJob:"",
-    type:"",
+    type:"demjigch",
     pros:[
 
     ],
@@ -736,13 +736,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/baigal.png",
   },
   {
     id:"job38",
     jobTitle:"Механик инженер",
     aboutJob:"",
-    type:"",
+    type:"stra",
     pros:[
 
     ],
@@ -751,13 +751,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/mehanik.png",
   },
   {
     id:"job39",
     jobTitle:"Багш",
     aboutJob:"",
-    type:"",
+    type:"zuvlugch, chigluulegch",
     pros:[
 
     ],
@@ -766,13 +766,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/bagsh.png",
   },
   {
     id:"job40",
     jobTitle:"Тоглоом зохион бүтээгч",
     aboutJob:"",
-    type:"",
+    type:"uran buteelch, bodogch",
     pros:[
 
     ],
@@ -781,13 +781,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/togloom.png",
   },
   {
     id:"job41",
     jobTitle:"Загвар зохион бүтээгч",
     aboutJob:"",
-    type:"",
+    type:"uran buteelch",
     pros:[
 
     ],
@@ -796,13 +796,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/zagvar.png",
   },
   {
     id:"job42",
     jobTitle:"Судлаач",
     aboutJob:"",
-    type:"",
+    type:"muruudugch",
     pros:[
 
     ],
@@ -811,13 +811,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/sudlaach.png",
   },
   {
     id:"job43",
     jobTitle:"Технологи шинэчлэгч",
     aboutJob:"",
-    type:"",
+    type:"huviaraa, bodogch",
     pros:[
 
     ],
@@ -826,13 +826,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/techno.png",
   },
   {
     id:"job44",
     jobTitle:"Илтгэгч",
     aboutJob:"",
-    type:"",
+    type:"zorigjuulagch",
     pros:[
 
     ],
@@ -841,13 +841,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/iltgegch.png",
   },
   {
     id:"job45",
     jobTitle:"Химийн инженер",
     aboutJob:"",
-    type:"",
+    type:"stra, bodogch",
     pros:[
 
     ],
@@ -856,13 +856,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/himi.png",
   },
   {
     id:"job46",
     jobTitle:"Сэтгүүлч",
     aboutJob:"",
-    type:"",
+    type:"zuvlugch",
     pros:[
 
     ],
@@ -871,13 +871,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/setguulch.png",
   },
   {
     id:"job47",
     jobTitle:"Тогооч",
     aboutJob:"",
-    type:"",
+    type:"darhan, uran buteelch",
     pros:[
 
     ],
@@ -886,13 +886,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/togooch.png",
   },
   {
     id:"job48",
     jobTitle:"Хуульч",
     aboutJob:"",
-    type:"",
+    type:"ajiglagch",
     pros:[
 
     ],
@@ -901,7 +901,7 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/huulich.png",
   },
   {
     id:"job49",
@@ -916,13 +916,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/shud.png",
   },
   {
     id:"job50",
     jobTitle:"Веб хөгжүүлэгч",
     aboutJob:"",
-    type:"",
+    type:"bodogch",
     pros:[
 
     ],
@@ -931,13 +931,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/web.png",
   },
   {
     id:"job51",
     jobTitle:"Нарийн бичиг",
     aboutJob:"",
-    type:"",
+    type:"bodogch",
     pros:[
 
     ],
@@ -946,13 +946,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/nariinbichig.png",
   },
   {
     id:"job52",
     jobTitle:"Нягтлан бодогч",
     aboutJob:"",
-    type:"",
+    type:"bodogch",
     pros:[
 
     ],
@@ -961,13 +961,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/nybo.png",
   },
   {
     id:"job53",
     jobTitle:"Цөмийн инженер",
     aboutJob:"",
-    type:"",
+    type:"stra",
     pros:[
 
     ],
@@ -976,13 +976,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/tsum.png",
   },
   {
     id:"job54",
     jobTitle:"Гал сөнөөгч",
     aboutJob:"",
-    type:"",
+    type:"hyanagch",
     pros:[
 
     ],
@@ -991,13 +991,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/galsunuugch.png",
   },
   {
     id:"job55",
     jobTitle:"Оёдолчин",
     aboutJob:"",
-    type:"",
+    type:"darhan",
     pros:[
 
     ],
@@ -1006,13 +1006,13 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/oydolchin.png",
   },
   {
     id:"job56",
     jobTitle:"тамирчин",
     aboutJob:"",
-    type:"",
+    type:"stra",
     pros:[
 
     ],
@@ -1021,7 +1021,7 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"",
+    img:"/mergejil/tamirchin.png",
   },
 
 ];
@@ -1377,7 +1377,7 @@ let CareerType = [
   {
     typeId: "hugjuugch",
     score: 0,
-    nme: "хөгжөөгч",
+    nme: "энтертейнер",
     aboutType:
       "Таны сэргэлэн цовоо, илэрхий, нийтэч зан чанар таныг сэтгэл татам жүжигчний хувьд бусдаас ялгаруулдаг. Та ямар ч өрөөг гэрэлтүүлж, амьд оршихуйгаараа бусдад баяр баясгаланг авчрах чадвар нь таныг үзэгчдийг байлдан дагуулж, мөнхийн сэтгэгдэл үлдээх чадвартай, төрөлхийн хөгжөөн дэмжигч болгодог. Та анхаарлын төвд байж, хором бүрийг сэтгэл хөдөлгөм, урам зоригоор дүүргэх онцгой авьяастай.",
   },
