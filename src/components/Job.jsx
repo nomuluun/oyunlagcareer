@@ -1,13 +1,14 @@
-import { uni } from "../../utils/data";
 import { jobList } from "../../utils/data";
 import SuggestedCareer from "./SuggestedCareer";
+import { uni } from "../../utils/data";
+import { lesson } from "../../utils/data";
 export default function Job({ data }) {
   console.log("jobdata", data);
   const jobs = jobList.filter(
     (dat, index) => dat.type == data?.type && dat.id != data?.id
   );
   return (
-    <div>
+    <div className="">
       <img
         src="zurg.png"
         className="md:w-[10vw] absolute lg:top-[50vh] hidden lg:left-[10vw] w-[25vw] top-[40vh] md:top-[52vh] "
@@ -64,7 +65,7 @@ export default function Job({ data }) {
           </div>
         </div>
       </div>
-      <div>
+      <div >
         <h1 className="md:text-xl text-[20px] font-bold md:pl-[20vw] pt-[90px] pb-[60px] text-center md:text-start ">
           ЭЕШ өгөх хичээлүүд / босго оноо
         </h1>
@@ -73,73 +74,58 @@ export default function Job({ data }) {
             <thead className="">
               <tr className="">
                 <th></th>
-                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
-                  МУИС
-                </th>
-                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
-                  МҮИС
-                </th>
-                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
-                  СЭЗИС
-                </th>
-                <th className="md:border-l-2 border-l border-[#373737] md:px-[5vw]">
-                  ШУТИС
-                </th>
+                {data?.university?.map((univer, index) => {
+                  let uniName;
+                  for (let i = 0; i < uni.length; i++) {
+                    if (uni[i].uniId == univer) {
+                      uniName = uni[i].uniName;
+                      break;
+                    }
+                  }
+                  return (
+                    <th
+                      key={index}
+                      className="md:border-l-2 border-l border-[#373737] md:px-[5vw]"
+                    >
+                      {uniName}
+                    </th>
+                  );
+                })}
               </tr>
             </thead>
             <tbody className="">
-              <tr>
-                <td className="flex items-center w-[150px] p-7">
-                  <img src="Group 96.png" className="w-[38px] mr-2" alt="" />
-                  Математик
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
-                  560
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
-                  560
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
-                  560
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:px-[5vw] ">
-                  560
-                </td>
-              </tr>
-              <tr>
-                <td className="flex items-center p-7 w-[200px]">
-                  <img src="Group 95.png" className="w-[38px] mr-2" alt="" />
-                  Хими
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">560</td>
-              </tr>
-              <tr>
-                <td className="flex items-center w-[200px] p-7">
-                  <img src="Group 94.png" className="w-[38px] mr-2" alt="" />
-                  Биологи
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
-                  560
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
-                  560
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
-                  560
-                </td>
-                <td className="md:border-l-2 border-l border-[#373737] w-[100px] md:p-8">
-                  560
-                </td>
-              </tr>
+              {data?.lesson?.map((lessonData) => {
+                let lesName;
+                let lesImg;
+                for (let i = 0; i < lesson.length; i++) {
+                  if (lesson[i].lessonId == lessonData) {
+                    lesName = lesson[i].lessonName;
+                    lesImg = lesson[i].img;
+                    break;
+                  }
+                }
+                return (
+                  <tr>
+                    <td className="flex items-center p-7 w-[200px]">
+                      <img src={lesImg} className="w-[38px] mr-2" alt="" />
+                      {lesName}
+                    </td>
+                    {data?.university?.map((uniDat) => (
+                      <td className="md:border-l-2 border-l border-[#373737] w-[100px] ">
+                        440
+                      </td>
+                    ))}
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
-          <h1 className="md:text-xl text-[20px] font-bold pl-[3vw] pt-[60px] pb-[60px] text-center">Төстэй мэргэжлүүд</h1>
+        <h1 className="md:text-xl text-[20px] font-bold pl-[3vw] pt-[60px] pb-[60px] text-center">
+          Төстэй мэргэжлүүд
+        </h1>
       </div>
-      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-evenly mt-[5px] flex-wrap flex-col p-5 gap-9 items-center ">
+      <div className=" max-w-screen-xl mx-auto flex md:flex-row justify-center mt-[5px] flex-wrap flex-col p-5 gap-9 items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border ">
         {jobs?.map((data, index) => (
           <SuggestedCareer key={index} data={data} />
         ))}
