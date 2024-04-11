@@ -796,7 +796,7 @@ const jobList = [
     ],
     lesson:[],
     university:[],
-    img:"/mergejil/zagvar.png",
+    img:"/mergejil/zagavr.png",
   },
   {
     id:"job42",
