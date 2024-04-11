@@ -2,49 +2,49 @@ export default function Subject() {
   return (
     <div className=" max-w-screen-xl font justify-items-center mx-auto pt-[10px] flex-col h-auto">
       <div>
-        <h1 className="text-har md:text-[36px] text-[24px] text-center m-8 p-6 font-bold">
+        <h1 className="text-har md:text-[32px] text-[24px] text-center m-8 p-6 font-bold">
           Хичээл үзэж, давтаж болох Монгол веб хуудсууд
         </h1>
-        <div className="flex flex-wrap md:flex-wrap gap-5  justify-evenly items-center font-medium  drop-shadow-xl">
+        <div className="flex flex-wrap md:flex-wrap   justify-evenly items-center font-medium  drop-shadow-xl">
           <div className="md:m-5 max-w-[320px]">
-            <button className="bg-white rounded-2xl  flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+            <button className=" rounded-2xl  flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://www.tomyo.mn/?cat=2">
-                <img src="/svg/hicheel/tomyo.png" alt="" className="p-4 md:h-[130px] max-w-[320px]"/>
+                <img src="/svg/hicheel/tomyo.png" alt="" className="p-2 md:h-[130px] max-w-[320px]"/>
               </a>
             </button>
           </div>
           <div className="md:m-5 max-w-[320px] ">
-            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+            <button className=" rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://yesh.mn/">
-                <img src="/svg/hicheel/yesh.png" alt="" className=" p-4 md:h-[130px] max-w-[320px]" />
+                <img src="/svg/hicheel/yesh.png" alt="" className=" p-2 md:h-[130px] max-w-[320px]" />
               </a>
             </button>
           </div>
           <div className="md:m-5 max-w-[320px]">
-            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+            <button className=" rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://itembank.eec.mn/items/1">
-                <img src="/svg/hicheel/but.png" alt="" className=" p-4 md:h-[130px] max-w-[320px]" />
+                <img src="/svg/hicheel/but.png" alt="" className=" p-2 md:h-[130px] max-w-[320px]" />
               </a>
             </button>
           </div>
           <div className="md:m-5 max-w-[320px] ">
-            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+            <button className=" rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://integral.mn/problems">
-                <img src=" /svg/hicheel/integral.png" alt="" className="  p-4 md:h-[130px] max-w-[320px]" />
+                <img src=" /svg/hicheel/integral.png" alt="" className="  p-2 md:h-[130px] max-w-[320px]" />
               </a>
             </button>
           </div>
           <div className="md:m-5 max-w-[320px]">
-            <button className="bg-white rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+            <button className=" rounded-2xl   flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://mn.khanacademy.org/">
-                <img src="/svg/hicheel/khan.png" alt="" className="p-4 md:h-[130px] max-w-[320px]" />
+                <img src="/svg/hicheel/khan.png" alt="" className="p-2 md:h-[130px] max-w-[320px]" />
               </a>
             </button>
           </div>
           <div className="md:m-5 max-w-[320px] ">
-            <button className="bg-white rounded-2xl flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
+            <button className=" rounded-2xl flex flex-col items-center text-center justify-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 ">
               <a href="https://www.bagshiintuslah800.mn/">
-                <img src="/svg/hicheel/tuslah.png" alt="" className=" p-4 h-[130px] max-w-[320px]" />
+                <img src="/svg/hicheel/tuslah.png" alt="" className=" p-2 h-[130px] max-w-[320px]" />
               </a>
             </button>
           </div>
