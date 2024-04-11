@@ -5,7 +5,7 @@ import { jobList } from "../../utils/data";
 export default function CareerResult() {
   const { result, setResult} = useContext(SidebarContext);
   const [aboutState, setAboutState] = useState(true);
-  const jobs = jobList.filter((data,index)=>data.type == result[0]?.typeId);
+  const jobs = jobList.filter((data,index)=>data.type.includes(result[0]?.typeId));
   console.log("jos",jobs);
   const subStr =String(result[0]?.aboutType);
   let newStr = "";
