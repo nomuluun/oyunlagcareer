@@ -295,7 +295,7 @@ export default function Nuurhuudas() {
                 <h1 className="my-3  text-[24px] font-bold text-prp">
                   Хөгжөөгч
                 </h1>
-                <p className="text-[14px] px-5">дуучин, бүжигчин</p>
+                <p className="text-[14px] px-5">Дуучин, Бүжигчин</p>
               </div>
             </button>
           </div>
