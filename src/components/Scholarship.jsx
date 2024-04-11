@@ -1,6 +1,8 @@
 import Scholarshipinside from "./Scholarshipinside";
-
+import { useRouter } from "next/router";
+import { scholarship } from "../../utils/data";
 export default function Scholarship() {
+  const router=useRouter();
   return (
     <div>
       <div className="max-w-screen-xl mx-auto pt-[80px] font  h-auto">
@@ -9,22 +11,50 @@ export default function Scholarship() {
         </div>
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
-            <button href="tetgelegdotor">
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "0" },
+                });
+              }}
+            >
               <img src="/svg/tetgelegicon1.png" alt="" />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
-            <button>
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "1" },
+                });
+              }}
+            >
               <img src="/svg/tetgelegicon2.png" alt="" />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
-            <button>
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "2" },
+                });
+              }}
+            >
               <img src="/tetgelegicon3.png" alt="" />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 ">
-            <button>
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "3" },
+                });
+              }}
+            >
               <img src="/tetgelegicon4.png" alt="" />
             </button>
           </div>
@@ -33,19 +63,53 @@ export default function Scholarship() {
           <ul className="md:text-[24px] text-[16px] text-har font-bold flex flex-col md:gap-[50px] md:py-10  py-4 gap-5">
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="tetgelegdotor">1. Fulbright Foreign Student Program </a>
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "0" },
+                  });
+                }}
+              >
+                1. Fulbright Foreign Student Program{" "}
+              </a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">2. Hubert H. Humphrey Fellowship Program </a>
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "1" },
+                  });
+                }}
+              >
+                2. Hubert H. Humphrey Fellowship Program{" "}
+              </a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">3. Study of the U.S. Institutes for Scholars (SUSI)</a>
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "2" },
+                  });
+                }}
+              >
+                3. Study of the U.S. Institutes for Scholars (SUSI)
+              </a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "3" },
+                  });
+                }}
+              >
                 4. Global Undergraduate Exchange Program (Global UGRAD)
               </a>
             </li>
@@ -61,7 +125,14 @@ export default function Scholarship() {
         </div>
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
-            <button>
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "4" },
+                });
+              }}
+            >
               <img
                 src="/svg/tetgelegicon5.png"
                 alt=""
@@ -70,12 +141,26 @@ export default function Scholarship() {
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center ">
-            <button>
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "5" },
+                });
+              }}
+            >
               <img src="/svg/tetgelegicon6.png" alt="" className="w-full" />
             </button>
           </div>
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow  transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
-            <button>
+            <button
+              onClick={() => {
+                router.push({
+                  pathname: "tetgelegdotor",
+                  query: { data: "6" },
+                });
+              }}
+            >
               <img src="/svg/tetgelegicon7.png" alt="" className="w-[200px]" />
             </button>
           </div>
@@ -84,15 +169,42 @@ export default function Scholarship() {
           <ul className="md:text-[24px] text-[16px] text-har font-bold flex flex-col md:gap-[50px] md:py-10 gap-5 py-4">
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">1. Chinese Government Scholarship </a>
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "4" },
+                  });
+                }}
+              >
+                1. Chinese Government Scholarship{" "}
+              </a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">2. Silk Road Scholarship </a>
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "5" },
+                  });
+                }}
+              >
+                2. Silk Road Scholarship{" "}
+              </a>
             </li>
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
-              <a href="">3. Күнз боловсролын төв</a>
+              <a
+                onClick={() => {
+                  router.push({
+                    pathname: "tetgelegdotor",
+                    query: { data: "6" },
+                  });
+                }}
+              >
+                3. Күнз боловсролын төв
+              </a>
             </li>
           </ul>
         </div>
