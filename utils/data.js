@@ -587,9 +587,441 @@ const jobList = [
   {
     id:"job29",
     jobTitle:"Мэс заслын эмч",
-    aboutJob:"",
+    aboutJob:"мэс засал хийх зайлшгүй шаардлагатай эмээр эмчлэгдэхгүй өвчнийг болон гэмтлийг мэс заслын зориулалтын тусгай багаж хэрэгслээр мэс ажилбар хийж ангаадаг хүнийг нэрлэнэ. Мэс заслын эмч нь бусад анагаах ухааны эмчийн салбартай харьцуулахад хожуу үүсчээ.",
     lesson: ["chem", "bio", "eng"],
     type:"zahiragch",
+    pros:[
+      "Эрэлт их.",
+      "Нэр хүндтэй болно.",
+      "Хүмүүсийн амь аварна.",
+    ],
+    cons:[
+     "Олон цагаар ажиллана.",
+     "Удаан хугацаагаар суралцана.",
+     "Стресс их.",
+    ],
+    lesson:["chem", "bio","eng",],
+    university:["ashius",],
+    img:"",
+  },
+  {
+    id:"job30",
+    jobTitle:"Дасгалжуулагч",
+    aboutJob:"",
+    type:"chigluulegch",
+    pros:["Бусдад туслана.","Уян хатан ажлын цагтай.","Сурангаа ажиллаж болно.",
+
+    ],
+    cons:["Үйлчлүүлэгчийн хараат байдал өндөр",
+    "Хариуцлагатай байх",
+    "Орлогын хэлбэлзэл",
+
+    ],
+    lesson:["soc", "Mon", "ski", "mat",],
+    university:["muis", "bhis",],
+    img:"",
+  },
+  {
+    id:"job31",
+    jobTitle:" Мэргэжил сонголтын зөвлөх",
+    aboutJob:"Боловсрол, сургалт, ажил эрхлэлтийн талаар мэдээлэлтэй шийдвэр гаргахад чиглүүлэх, дэмжлэг үзүүлэх, нөөц бололцоогоор хангах замаар хувь хүмүүст карьераа чиглүүлэхэд нь туслах.",
+    type:"chigluulegch",
+    pros:["Бусдад туслах",
+    "Төрөл бүрийн ажлын байр",
+    "Хувийн сэтгэл ханамж сайн",
+    ],
+    cons:[
+      "Сэтгэл хөдлөлийн шаардлага",
+      "Үйлчлүүлэгчийн хараат байдал",
+      "Ажил амьдралын тэнцвэрийг хадгалахад хэцүү",
+    ],
+    lesson:["soc","eng","Mon",],
+    university:[
+      "muis",
+      "humuunleg",
+    ],
+    img:"",
+  },
+  {
+    id:"job32",
+    jobTitle:"Зохион байгуулагч",
+    aboutJob:"Үйл явдал, төсөл, үйл ажиллагааны янз бүрийн талыг төлөвлөх, зохицуулах, удирдахад чухал үүрэг гүйцэтгэдэг.",
+    type:"hyanagch",
+    pros:["Бусдад утга учиртай туршлагыг бий болгох боломж.",
+    "Янз бүрийн үүрэг хариуцлага нь олон янзын ажлын туршлагад хүргэдэг.",
+    "Хувийн өсөлт хөгжилт, манлайллын ур чадвараа хөгжүүлэх боломж.",
+    ],
+    cons:[
+      "Өндөр даралт, стресс, ялангуяа үйл явдлыг төлөвлөх үед.",
+      "Орой болон амралтын өдрүүдийг багтаасан олон цагаар ажиллах ёстой.",
+      "Гэнэтийн сорилт, эцсийн мөчид гарсан өөрчлөлтүүдийг даван туулах.",
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job33",
+    jobTitle:"Менежер",
+    aboutJob:"",
+    type:"",
+    pros:["Манлайлах боломж, багаа удирдах боломж.",
+    "Ажлын тогтвортой байдал, албан тушаал ахих боломжтой.",
+    "Төрөл бүрийн үүрэг, хариуцлага нь мэргэжлийн өсөлтөд хүргэдэг.",
+
+    ],
+    cons:[
+      
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job34",
+    jobTitle:"Бичээч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job35",
+    jobTitle:"Төслийн менежер",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job36",
+    jobTitle:"Нийгмийн ажилтан",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job37",
+    jobTitle:"Байгаль хамгаалагч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job38",
+    jobTitle:"Механик инженер",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job39",
+    jobTitle:"Багш",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job40",
+    jobTitle:"Тоглоом зохион бүтээгч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job41",
+    jobTitle:"Загвар зохион бүтээгч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job42",
+    jobTitle:"Судлаач",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job43",
+    jobTitle:"Технологи шинэчлэгч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job44",
+    jobTitle:"Илтгэгч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job45",
+    jobTitle:"Химийн инженер",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job46",
+    jobTitle:"Сэтгүүлч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job47",
+    jobTitle:"Тогооч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job48",
+    jobTitle:"Хуульч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job49",
+    jobTitle:"Шүдний эмч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job50",
+    jobTitle:"Веб хөгжүүлэгч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job51",
+    jobTitle:"Нарийн бичиг",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job52",
+    jobTitle:"Нягтлан бодогч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job53",
+    jobTitle:"Цөмийн инженер",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job54",
+    jobTitle:"Гал сөнөөгч",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job55",
+    jobTitle:"Оёдолчин",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
+  },
+  {
+    id:"job56",
+    jobTitle:"тамирчин",
+    aboutJob:"",
+    type:"",
+    pros:[
+
+    ],
+    cons:[
+
+    ],
+    lesson:[],
+    university:[],
+    img:"",
   },
 
 ];
