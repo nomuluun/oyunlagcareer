@@ -1181,7 +1181,7 @@ const jobList = [
     ],
     lesson:["mon", "soc", "eng",],
     university:["hais", "humuunleg",],
-    img:"",
+    img:"/svg/jobs/Sanvaartan.png",
   },
   {
     id:"job58",
@@ -1202,7 +1202,7 @@ const jobList = [
     ],
     lesson:["soc","mon","ski"],
     university:["bhis", "humuunleg",],
-    img:"",
+    img:"/svg/jobs/Police.png",
   },
 
 ];
