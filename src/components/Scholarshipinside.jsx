@@ -20,7 +20,7 @@ export default function Scholarshipinside({data}) {
               {header}
             </h1>
             <p className="max-w-[588px] md:text-[20px] text-[16px]">
-              {scholarship[data].aboutScholar}
+              {scholarship[data]?.aboutScholar}
             </p>
             <div className="mt-4 md:text-[20px] font-bold mb-4">
               <a href="https://foreign.fulbrightonline.org/about/foreign-student-program" className="text-shar ">
