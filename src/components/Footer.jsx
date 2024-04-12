@@ -4,7 +4,7 @@ export default function Footer(){
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
+            <a href="./" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap">
                 CareerTest
               </span>
@@ -26,11 +26,6 @@ export default function Footer(){
                     Үйлчилгээ
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Үнэ төлбөр
-                  </a>
-                </li>
               </ul>
             </div>
             <div>
@@ -40,7 +35,7 @@ export default function Footer(){
               <ul className="text-[#373737] font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="#"
                     className="hover:underline "
                   >
                     Дэмжлэг
@@ -48,7 +43,7 @@ export default function Footer(){
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="#"
                     className="hover:underline"
                   >
                     Асуулт
@@ -63,7 +58,7 @@ export default function Footer(){
               <ul className="text-[#373737]  font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
-                    +6281234567890
+                    +(976)94571333
                   </a>
                 </li>
               </ul>
