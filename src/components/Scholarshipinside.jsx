@@ -23,7 +23,7 @@ export default function Scholarshipinside({data}) {
               {scholarship[data]?.aboutScholar}
             </p>
             <div className="mt-4 md:text-[20px] font-bold mb-4">
-              <a href="https://foreign.fulbrightonline.org/about/foreign-student-program" className="text-shar ">
+              <a href={scholarship[data]?.link} className="text-shar ">
                 Цааш унших
               </a>
             </div>

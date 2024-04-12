@@ -41,7 +41,6 @@ export default function Footer(){
             <a href="#" className="hover:underline">
               CareerTest
             </a>
-            . Хуулиар хамгаалагдсан
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a href="#" className="text-[#373737] hover:text-prp ">
