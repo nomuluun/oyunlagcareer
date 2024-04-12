@@ -6,9 +6,9 @@ export default function Navbar() {
 
     <nav className=" sticky top-0 w-full z-20 start-0  bg-[#f5f5f5] stroke fill">
           <div className="  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a href="./" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
-                src="/Logo.png"
+                src="/svg/logo.png"
                 width={"100px"} alt=""
                 />
           </a>
