@@ -12,44 +12,8 @@ export default function Footer(){
           </div>
           <div className="grid grid-cols-2 spacin sm:gap-5 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
-                Нүүр хуудас
-              </h2>
-              <ul className="text-[#373737] font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Бидний тухай
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Үйлчилгээ
-                  </a>
-                </li>
-              </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
-                Туслалцаа
-              </h2>
-              <ul className="text-[#373737] font-medium">
-                <li className="mb-4">
-                  <a
-                    href="#"
-                    className="hover:underline "
-                  >
-                    Дэмжлэг
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="hover:underline"
-                  >
-                    Асуулт
-                  </a>
-                </li>
-              </ul>
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
@@ -59,6 +23,11 @@ export default function Footer(){
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     +(976)94571333
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    
                   </a>
                 </li>
               </ul>
