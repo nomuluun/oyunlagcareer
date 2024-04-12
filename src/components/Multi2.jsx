@@ -16,7 +16,7 @@ const options = [
 ];
 export default function App() {
   const [selectedOption, setSelectedOption] = useState(null);
-    const selectJob = jobList.filter((data) => {
+  const selectJob = jobList.filter((data) => {
     // console.log("data lesson " + data.lesson);
     // console.log("selected cities " +selectedCities);
     for (let i = 0; i < selectedOption?.length; i++) {
