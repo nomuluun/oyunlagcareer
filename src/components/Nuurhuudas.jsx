@@ -12,6 +12,8 @@ export default function Nuurhuudas() {
             Ирээдүйн чиглэлээ тодорхойлох тест, мөрөөдлийн мэргэжлээ олох
             мэдээллийн сан, илүү ихийг сурах хичээлүүдийг найзаа болгоорой!
           </p>
+          <div className="flex gap-7">
+
           <div className="tovch   md:text-[24px] text-[16px] rounded-full text-[#373737] bg-shar text-center flex items-center justify-center font-bold hover:text-white hover:bg-amber-500 md:w-48 md:h-16 w-36">
             {" "}
             <button>
@@ -23,8 +25,9 @@ export default function Nuurhuudas() {
             <img
               src="/svg/Vector 3.png"
               alt=""
-              className="absolute  left-[32vw] top-[63vh] hidden lg:block"
+              className="  left-[32vw] top-[70vh] hidden lg:block"
             />
+          </div>
           </div>
         </div>
         <div className="md:flex items-center justify-center px-8 py-6 hidden">

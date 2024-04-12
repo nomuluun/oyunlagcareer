@@ -1629,6 +1629,7 @@ const scholarship = [
     accept: "1800",
     sum: "9000",
     country: "АНУ",
+    link:"https://foreign.fulbrightonline.org/",
   },
   {
     scholarTitle: "Hubert H. Humphrey Fellowship Program",
@@ -1651,6 +1652,7 @@ const scholarship = [
     accept: "200",
     sum: "1500",
     country: "АНУ",
+    link:"https://www.humphreyfellowship.org/",
   },
   {
     scholarTitle: "Study of the U.S. Institutes for Scholars (SUSI)",
@@ -1670,6 +1672,7 @@ const scholarship = [
     aboutScholar:
       "Энэхүү тэтгэлгийн хувьд их, дээд сургуулийн багш, судлаач нарт зориулсан 5-6 долоо хоногийн бүрэн солилцооны хөтөлбөр юм. Уг тэтгэлэг нь ихэвчлэн их, дээд сургуулийн зуны амралт буюу 6-8-р сард зохион байгуулагддаг. Жилд нэг удаа зарлагдаж, 3-4 багш хамрагддаг аж",
     country: "АНУ",
+    link:"https://exchanges.state.gov/non-us/program/study-us-institutes-scholars-and-secondary-educators-susi-scholars",
   },
   {
     scholarTitle: "Global Undergraduate Exchange Program (Global UGRAD)",
@@ -1690,6 +1693,7 @@ const scholarship = [
     aboutScholar:
       "Уг хөтөлбөр нь Монгол Улсын магадлан итгэмжлэгдсэн их, дээд сургуулийн 1 болон 2 дугаар курсийн оюутнуудад өөрсдийн сурч буй чиглэлээрээ АНУ-ын их, дээд сургуульд зэргийн бус солилцоонд хамрагдах боломжийг олгодог билээ. Хэрэв та Global UGRAD хөтөлбөрт хамрагдаад ирсэн төгсөгчийн зөвлөгөөг сонсохыг хүсвэл TomYo аппын хичээл хэсгээс үзэх боломжтой.",
     country: "АНУ",
+    link:"https://exchanges.state.gov/non-us/program/global-undergraduate-exchange-program-global-ugrad",
   },
   {
     scholarTitle: "Chinese Government Scholarship",
@@ -1708,6 +1712,7 @@ const scholarship = [
     aboutScholar:
       "Хятадаас Монгол улсад суугаа Элчин сайдын яам жил бүр манай улсын БСШУСЯ-тай хамтарч сонгон шалгаруулалт явуулж, оюутнуудыг тэтгэлэгт хамруулдаг. Тодруулбал сонгон шалгаруулалтыг жил болгоны гуравдугаар сард зохион байгуулдаг бөгөөд энэ тухай дэлгэрэнгүй мэдээлэл БСШУСЯ-ны цахим хуудас дээр байршдаг гэнэ",
     country: "БНХАУ",
+    link:"https://www.chinesescholarshipcouncil.com/",
   },
   {
     scholarTitle: "Silk Road Scholarship",
@@ -1728,6 +1733,7 @@ const scholarship = [
     aboutScholar:
       "Хятадын Засгийн газар “Нэг бүс, нэг зам” санаачилгыг хэрэгжүүлэх үүднээс Silk Road Scholarship буюу “Торгоны зам” тэтгэлгийг жил бүр ОУ-ын оюутнуудын дунд зарладаг.  Хэдийгээр Монгол энэ төсөлд байдаггүй болов ч хоёр хөрш улсын нөлөөгөөр хамрагдаж энэхүү тэтгэлэгт хүсэлт гаргах боломжтой орнуудын жагсаалтад багтдаг аж.",
     country: "БНХАУ",
+    link:"https://intl.csu.edu.cn/info/1143/2615.htm",
   },
   {
     scholarTitle: "Күнзийн институтийн тэтгэлэг",
@@ -1746,6 +1752,7 @@ const scholarship = [
     aboutScholar:
       "Олон улсын Хятад хэлний багш бэлтгэх, бусад орны Хятад хэлний боловсролыг хөгжүүлэх зорилгоор Күнзийн институтээс жил бүр тус тэтгэлгийг олгодог. Монгол дахь Күнзийн институт, бие даан ажилладаг Күнзийн танхимууд, HSK-ийн зарим туршилтын төвүүд, их, дээд сургуулиудын хятад хэлний тэнхимүүд, сургалтын болон мэргэжлийн холбоонууд зэрэг байгууллагуудад энэхүү тэтгэлэг зарлагддаг.",
     country: "БНХАУ",
+    link:"https://iec.imu.edu.cn/info/1094/1233.htm",
   },
 ];
 export { CareerType, careerTestData, uni, lesson, jobList,scholarship };
