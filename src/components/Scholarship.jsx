@@ -7,7 +7,7 @@ export default function Scholarship() {
     <div>
       <div className="max-w-screen-xl mx-auto pt-[20px] font  h-auto">
         <div className="text-[#373737] md:text-[30px] text-[24px] font-bold flex items-center justify-center px-4 mt-10">
-          <h1>АНУ-ын засгийн газрын тэтгэлэгүүд</h1>
+          <h1>АНУ-ын засгийн газрын тэтгэлгүүд</h1>
         </div>
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 px-10 my-10 gap-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
@@ -121,7 +121,7 @@ export default function Scholarship() {
           />
         </div>
         <div className="text-[#373737] md:text-[30px] text-[24px] font-bold flex items-center justify-center m-10">
-          <h1 className="">Хятад улсын засгийн газрын тэтгэлэгүүд</h1>
+          <h1 className="">Хятад улсын засгийн газрын тэтгэлгүүд</h1>
         </div>
         <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 mx-10 gap-5 px-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
