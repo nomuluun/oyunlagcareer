@@ -5,11 +5,11 @@ export default function Scholarship() {
   const router=useRouter();
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto pt-[80px] font  h-auto">
-        <div className="text-prp md:text-[40px] text-[24px] font-bold flex items-center justify-center mt-10">
+      <div className="max-w-screen-xl mx-auto pt-[20px] font  h-auto">
+        <div className="text-[#373737] md:text-[30px] text-[24px] font-bold flex items-center justify-center px-4 mt-10">
           <h1>АНУ-ын засгийн газрын тэтгэлэгүүд</h1>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
+        <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 px-10 my-10 gap-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90">
             <button
               onClick={() => {
@@ -60,7 +60,7 @@ export default function Scholarship() {
           </div>
         </div>
         <div>
-          <ul className="md:text-[24px] text-[16px] text-har font-bold flex flex-col md:gap-[50px] md:py-10  py-4 gap-5">
+          <ul className="px-10 md:text-[20px] text-[14px] text-har font-bold flex flex-col md:gap-[50px] md:py-10  py-4 gap-5">
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
               <a
@@ -120,10 +120,10 @@ export default function Scholarship() {
             className="absolute top-[65vh] right-[20vw] hidden lg:block"
           />
         </div>
-        <div className="text-prp md:text-[40px] text-[24px] font-bold flex items-center justify-center mt-10">
-          <h1>Хятад улсын засгийн газрын тэтгэлэгүүд</h1>
+        <div className="text-[#373737] md:text-[30px] text-[24px] font-bold flex items-center justify-center m-10">
+          <h1 className="">Хятад улсын засгийн газрын тэтгэлэгүүд</h1>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 gap-5">
+        <div className="grid md:grid-cols-3 grid-cols-2 md:gap-10 my-10 mx-10 gap-5 px-5">
           <div className="bg-white rounded-[10px] px-4 py-2 tetgeleg-shadow transition ease-out delay-50 hover:-translate-y-1 hover:scale-90 flex justify-center items-center">
             <button
               onClick={() => {
@@ -166,7 +166,7 @@ export default function Scholarship() {
           </div>
         </div>
         <div>
-          <ul className="md:text-[24px] text-[16px] text-har font-bold flex flex-col md:gap-[50px] md:py-10 gap-5 py-4">
+          <ul className="md:text-[20px] text-[14px] text-har font-bold flex flex-col md:gap-[50px] md:py-10 gap-5 py-4 px-10">
             <li className="hover:transition hover:delay-100 hover:text-shar">
               {" "}
               <a
