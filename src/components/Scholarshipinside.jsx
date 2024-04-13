@@ -8,7 +8,6 @@ export default function Scholarshipinside({data}) {
     <div>
       <div className="max-w-screen-xl font mx-auto pt-[80px]  ">
         <div className="md:text-[40px] text-[32px] text-har font-bold h-auto flex items-center justify-center p-4">
-          <h1>АНУ-ын засгийн газрын тэтгэлэгүүд</h1>
         </div>
         <div className="flex items-center justify-center p-4">
           <div className="md:w-[466px] hidden md:block">
