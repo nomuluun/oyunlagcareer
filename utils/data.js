@@ -147,7 +147,7 @@ const jobList = [
     ],
     lesson: ["chem", "bio"],
     university: ["ashius", "muis", "shutis"],
-    img: "/src/jobs/suvilagch.png",
+    img: "/svg/jobs/suvilagch.png",
   },
   {
     id: "job8",
