@@ -798,7 +798,7 @@ const jobList = [
     ],
     lesson:["eng","mat", "phy",],
     university:["mubis"],
-    img:"",
+    img:"/mergejil/matbagsh.png",
   },
   {
     id:"job40",
@@ -1181,7 +1181,7 @@ const jobList = [
     ],
     lesson:["soc","bio","mon"],
     university:["mubis"],
-    img:"",
+    img:"/mergejil/eruulbagsh.png",
   },
   {
     id:"job58",
@@ -1222,7 +1222,7 @@ const jobList = [
     ],
     lesson:["soc", "his","mon",],
     university:["mubis"],
-    img:"",
+    img:"/mergejil/tuuhbagsh.png",
   },
   {
     id:"job59",
@@ -1242,7 +1242,7 @@ const jobList = [
     ],
     lesson:["geo", "mat",],
     university:["muis", "shutis",],
-    img:"",
+    img:"/mergejil/geologi.png",
   },
   {
     id:"job59",
@@ -1262,7 +1262,7 @@ const jobList = [
     ],
     lesson:["rus", "mon","soc",],
     university:["mubis"],
-    img:"",
+    img:"/mergejil/orosbagsh.png",
   },
   {
     id:"job60",
