@@ -112,7 +112,33 @@ tovch:focus::after {
 .font{
   font-family: "Roboto", sans-serif;
 }
+
 main{
   min-height: calc(100vh - 112px);
 }
 
+.css-1jqq78o-placeholder {
+  color: white !important;
+
+
+}
+.css-13cymwt-control {
+  border: 2px solid #5e17eb !important;
+  border-radius : 20px !important;
+  padding : 5px 0;
+}
+.css-1p3m7a8-multiValue{
+  background-color: #5e17eb !important;
+  color :#fff !important;
+  border-radius: 15px !important;
+  padding : 3px 5px
+
+}
+.css-wsp0cs-MultiValueGeneric{
+  color: #fff !important;
+  font-weight: bold;
+}
+.css-12a83d4-MultiValueRemove{
+  border-radius: 40px !important;
+  
+}

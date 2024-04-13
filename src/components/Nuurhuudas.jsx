@@ -39,7 +39,8 @@ export default function Nuurhuudas() {
         </div>
       </div>
 
-      <div className=" md:w-[1200px] w-[450px] bg-[rgb(255,255,255)] rounded-full flex items-center justify-evenly md:mx-auto mx-4 text-prp font-extrabold md:px-24 md:py-10 px-6 py-6 md:text-[24px] text-[14px] md:my-40 my-15 index-shadow">
+      <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-24 md:py-10 px-6 py-6 md:text-[24px] text-[14px] lg:my-40 my-15 md:my-30 index-shadow">
+
 
         <div>
           <p className="">48+ МЭРГЭЖИЛ</p>
@@ -54,8 +55,11 @@ export default function Nuurhuudas() {
         </div>
       </div>
       <div className="mx-auto flex max-w-screen-xl items-center justify-center mt-20 text-left text-har">
-          <img src="/svg/Saly-35.png" className=" md:w-[400px] m-10" alt="" />
-  
+
+        <div className=" m-10">
+          <img src="/svg/Saly-35.png" alt="" className="md:block hidden" />
+        </div>
+
         <div className=" flex flex-col">
           <h1 className="md:text-[40px] text-[32px] font-bold">
             Тестийн ач холбогдол
@@ -71,7 +75,7 @@ export default function Nuurhuudas() {
       </div>
       <div className="mx-auto flex flex-col justify-center items-center text-har font-bold mt-[100px] md:mb-[250px] ">
         <div>
-          <h1 className="text-center md:text-[32px] max-w-[937px] text-[24px]">
+          <h1 className="text-center md:text-[30px] ml-10 text-[20px]">
             Танд аль мэргэжил хамгийн сайн тохирохыг олж мэдэхэд тусална.
           </h1>
         </div>
@@ -79,9 +83,6 @@ export default function Nuurhuudas() {
           <div className="flex flex-col justify-center items-center text-center">
             <img src="/svg/Zan.png" alt="" className="md:w-[88px]  w-[64px] " />
             <h1 className="md:text-[24px] text-[16px] md:my-5">Зан чанар</h1>
-            {/* <p className="md:text-[16px] text-[12px]">
-              Create your Legite account on register button
-            </p> */}
           </div>
           <div className="md:w-[108px] w-[55px] h-1 bg-[#FFE4BA] hidden md:block"></div>
           <div className="flex flex-col justify-center items-center text-center md:mt-0 mt-5">
@@ -91,9 +92,6 @@ export default function Nuurhuudas() {
               className="md:w-[88px] md:h-[88px] w-[64px]  "
             />
             <h1 className="md:text-[24px] text-[16px] md:my-5 ">Сонирхол</h1>
-            {/* <p className="md:text-[16px] text-[12px]">
-              Add the amount currency you want to invest on Legite
-            </p> */}
           </div>
           <div className="md:w-[108px]  w-[55px]  h-1 bg-[#FFE4BA] hidden md:block"></div>
           <div className="flex flex-col justify-center items-center text-center md:mt-0 mt-5">
@@ -103,11 +101,8 @@ export default function Nuurhuudas() {
               className="md:w-[88px]  w-[64px] h-[64px]"
             />
             <h1 className="md:text-[24px] text-[16px] md:my-5">
-              Төрөлхийн авьяас
+              Авьяас
             </h1>
-            {/* <p className="md:text-[16px] text-[12px]">
-              Confirm your crypto invest payment{" "}
-            </p> */}
           </div>
           <div className="absolute left-[7vw] top-[215vh] hidden lg:block">
             <img src="/svg/chimeglel.png" alt="" />
@@ -118,8 +113,8 @@ export default function Nuurhuudas() {
         <div className="text-har md:text-[40px] font-bold mb-[20px]">
           <h1>Мэргэжлийн зан чанарууд</h1>
         </div>
-        <div className="grid pl-10 pr-10 md:grid-cols-4 gap-5 mt-[20px] ">
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+        <div className="grid md:grid-cols-4 gap-5 mt-[30px] ">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -139,7 +134,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -157,7 +152,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -175,7 +170,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -195,7 +190,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -211,7 +206,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -229,7 +224,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -247,7 +242,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -265,7 +260,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -283,7 +278,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -301,7 +296,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -319,7 +314,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -335,7 +330,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -353,7 +348,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -371,7 +366,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}
@@ -389,7 +384,7 @@ export default function Nuurhuudas() {
               </div>
             </button>
           </div>
-          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow transition delay-100 hover:bg-[#DFDFDF]">
+          <div className="bg-white rounded-[48px] flex items-center justify-center my-1 py-5 px-3 index-shadow ">
             <button>
               <div className="p-5 flex items-center justify-center">
                 {" "}

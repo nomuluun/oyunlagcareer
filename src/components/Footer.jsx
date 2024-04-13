@@ -5,8 +5,8 @@ export default function Footer(){
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="./" className="flex items-center">
-              <span className="self-center text-2xl font-semibold whitespace-nowrap">
-                CareerTest
+              <span className="self-center  font-semibold whitespace-nowrap">
+                <img src="/svg/logo.png" alt="" className="w-[88px]" />
               </span>
             </a>
           </div>
@@ -39,7 +39,7 @@ export default function Footer(){
           <span className="text-sm text-[#373737] sm:text-center ">
             © 2024{" "}
             <a href="#" className="hover:underline">
-              CareerTest
+              Оюунлаг карьер
             </a>
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
