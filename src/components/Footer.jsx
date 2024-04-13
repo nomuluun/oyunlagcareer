@@ -4,7 +4,7 @@ export default function Footer(){
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
+            <a href="./" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap">
                 CareerTest
               </span>
@@ -12,49 +12,8 @@ export default function Footer(){
           </div>
           <div className="grid grid-cols-2 spacin sm:gap-5 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
-                Нүүр хуудас
-              </h2>
-              <ul className="text-[#373737] font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Бидний тухай
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Үйлчилгээ
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Үнэ төлбөр
-                  </a>
-                </li>
-              </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
-                Туслалцаа
-              </h2>
-              <ul className="text-[#373737] font-medium">
-                <li className="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
-                  >
-                    Дэмжлэг
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
-                    Асуулт
-                  </a>
-                </li>
-              </ul>
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-prp uppercase ">
@@ -63,7 +22,12 @@ export default function Footer(){
               <ul className="text-[#373737]  font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
-                    +6281234567890
+                    +(976)94571333
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    
                   </a>
                 </li>
               </ul>
@@ -77,7 +41,6 @@ export default function Footer(){
             <a href="#" className="hover:underline">
               CareerTest
             </a>
-            . Хуулиар хамгаалагдсан
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a href="#" className="text-[#373737] hover:text-prp ">

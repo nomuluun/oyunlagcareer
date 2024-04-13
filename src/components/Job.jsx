@@ -125,7 +125,7 @@ export default function Job({ data }) {
           Төстэй мэргэжлүүд
         </h1>
       </div>
-      <div className=" max-w-screen-xl mx-auto md:flex-row justify-center mt-[5px] flex-wrap flex-col p-5 gap-9 items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border ">
+      <div className=" max-w-screen-xl mx-auto md:flex-row justify-center mt-[5px] flex-wrap flex-col p-5 gap-9 items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
         {jobs?.map((data, index) => (
           <SuggestedCareer key={index} data={data} />
         ))}

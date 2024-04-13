@@ -16,7 +16,8 @@
     "primereact": "^10.6.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-multi-select-component": "^4.3.4"
+    "react-multi-select-component": "^4.3.4",
+    "react-select": "^5.8.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",

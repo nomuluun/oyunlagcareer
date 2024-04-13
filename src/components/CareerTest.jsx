@@ -112,7 +112,7 @@ export default function CareerTest() {
         setUserIndex(newIndex + 1);
       }
     } else {
-      alert("hariultaa songono uu");
+      alert("Хариултаа сонгоно уу!");
     }
   };
 
