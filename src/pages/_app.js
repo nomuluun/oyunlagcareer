@@ -6,7 +6,8 @@ import { PrimeReactProvider } from "primereact/api";
 export default function App({ Component, pageProps }) {
   return <DataContext>
     <Layout>
-    <Component {...pageProps} />;
+      
+    <Component {...pageProps} />
     </Layout>
   </DataContext>
 }
