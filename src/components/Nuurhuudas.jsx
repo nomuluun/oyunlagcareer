@@ -4,7 +4,7 @@ export default function Nuurhuudas() {
     <div>
       <div className=" font max-w-screen-xl md:grid grid-cols-2 gap-3 mx-auto   h-auto">
         <div className="  p-12  text-[#373737]">
-          <h1 className="md:text-[48px]  text-[32px] font-bold text-left leading-none py-4 my-4">
+          <h1 className="md:text-[48px]  text-[32px] font-bold text-left leading-none py-2 my-4">
             Ирээдүйгээ тодорхойлж, <br />
             хичээхэд <span className="text-prp">найз</span> чинь байя.
           </h1>
@@ -41,27 +41,30 @@ export default function Nuurhuudas() {
 
       <div className=" bg-[rgb(255,255,255)] rounded-full max-w-screen-xl flex items-center justify-between md:mx-auto mx-8 text-prp font-extrabold md:px-24 md:py-10 px-6 py-6 md:text-[24px] text-[14px] lg:my-40 my-15 md:my-30 index-shadow">
 
+
         <div>
-          <p className="">48+ Мэргэжил</p>
+          <p className="">48+ МЭРГЭЖИЛ</p>
         </div>
         <div className="bg-prp border-solid md:w-1 w-[1px] md:h-16 h-8"></div>
         <div>
-          <p>16 Төрөл</p>
+          <p>16 ТӨРӨЛ</p>
         </div>
         <div className="bg-prp border-solid md:w-1 w-[1px] md:h-16 h-8"></div>
         <div>
-          <p>10+ Тэтгэлэг</p>
+          <p>10+ ТЭТГЭЛЭГ</p>
         </div>
       </div>
       <div className="mx-auto flex max-w-screen-xl items-center justify-center mt-20 text-left text-har">
+
         <div className=" m-10">
           <img src="/svg/Saly-35.png" alt="" className="md:block hidden" />
         </div>
+
         <div className=" flex flex-col">
           <h1 className="md:text-[40px] text-[32px] font-bold">
             Тестийн ач холбогдол
           </h1>
-          <p className="max-w-[521px] md:text-[24px] text-[16px] my-4 pr-8">
+          <p className="max-w-[521px] md:text-[24px] text-[16px] my-4 pr-8 flex items-center">
             Энэхүү тест нь хувь хүмүүст өөрсдийн ур чадвар, сонирхол, үнэт
             зүйлсийн талаар илүү сайн ойлголт өгөх боломжийг олгодог.{" "}
           </p>
@@ -107,7 +110,7 @@ export default function Nuurhuudas() {
         </div>
       </div>
       <div className="mx-auto md:flex justify-center items-center flex-col my-[100px] hidden max-w-screen-xl">
-        <div className="text-har md:text-[40px] font-bold mb-[30px]">
+        <div className="text-har md:text-[40px] font-bold mb-[20px]">
           <h1>Мэргэжлийн зан чанарууд</h1>
         </div>
         <div className="grid md:grid-cols-4 gap-5 mt-[30px] ">

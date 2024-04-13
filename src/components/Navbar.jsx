@@ -47,7 +47,7 @@ export default function Navbar() {
             <li>
               <a
                 href="./"
-                className="block py-[20px] px-3 text-[#373737] bg-shar rounded md:bg-transparent   md:p-0 md:visited:text-shar "
+                className="block py-2 px-3 text-[#373737]  rounded md:bg-transparent   md:p-0 md:hover:text-shar  transition hover:scale-110  delay-50 "
                 aria-current="page"
               >
                 Нүүр хуудас
@@ -56,7 +56,7 @@ export default function Navbar() {
             <li>
               <a
                 href="test"
-                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
+                className="block py-2 px-3 text-[#373737] rounded  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
               >
                 Чиглэл тест
               </a>
@@ -83,6 +83,14 @@ export default function Navbar() {
                 className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
               >
                 Тэтгэлэг
+              </a>
+            </li>
+            <li>
+              <a
+                href="sanalhuselt"
+                className="block py-2 px-3 text-[#373737] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-shar md:p-0 transition hover:scale-110  delay-50  "
+              >
+                Санал хүсэлт
               </a>
             </li>
           </ul>
